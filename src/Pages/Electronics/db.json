@@ -1,0 +1,654 @@
+{
+  "Mobiles": [
+    {
+      "id": 1,
+      "title": "Samsung Galaxy S23 Ultra (512GB)",
+      "brand": "Samsung",
+      "price": 120000,
+      "rating": 4.6,
+      "description": "6.8-inch Dynamic AMOLED display, 200MP camera, Snapdragon 8 Gen 2 chipset, 12GB RAM, 5000mAh battery, up to 45W fast charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Apple iPhone 14 Pro (128GB)",
+      "brand": "Apple",
+      "price": 130000,
+      "rating": 4.7,
+      "description": "6.1-inch Super Retina XDR OLED display, A16 Bionic chip, 48MP main camera, 6GB RAM, 3274mAh battery, iOS ecosystem.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "OnePlus 11 (8GB RAM, 128GB)",
+      "brand": "OnePlus",
+      "price": 55000,
+      "rating": 4.5,
+      "description": "6.7-inch Fluid AMOLED display, Snapdragon 8 Gen 2, 50MP triple camera, 5000mAh battery, 100W fast charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/5234774/pexels-photo-5234774.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Google Pixel 7 Pro (12GB, 256GB)",
+      "brand": "Google",
+      "price": 70000,
+      "rating": 4.4,
+      "description": "6.7-inch QHD+ OLED display, Google Tensor G2 chip, 50MP triple camera with Magic Eraser, 5000mAh battery, Android 13.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/1786433/pexels-photo-1786433.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Xiaomi Redmi Note 12 Pro (6GB, 128GB)",
+      "brand": "Xiaomi",
+      "price": 25000,
+      "rating": 4.2,
+      "description": "6.7-inch Full HD+ AMOLED display, MediaTek Dimensity 1080, 50MP quad camera, 5000mAh battery, 67W fast charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/1786433/pexels-photo-1786433.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Vivo V27 Pro (8GB, 256GB)",
+      "brand": "Vivo",
+      "price": 35000,
+      "rating": 4.3,
+      "description": "6.7-inch AMOLED display, MediaTek Dimensity 8200, 50MP triple camera, 4600mAh battery, 66W FlashCharge.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/5234774/pexels-photo-5234774.jpeg"
+    },
+    {
+      "id": 7,
+      "title": "OPPO Reno8 Pro (8GB, 128GB)",
+      "brand": "OPPO",
+      "price": 30000,
+      "rating": 4.2,
+      "description": "6.7-inch AMOLED display, MediaTek Dimensity 8100, 50MP triple camera, 4500mAh battery, 80W SuperVOOC charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg"
+    },
+    {
+      "id": 8,
+      "title": "realme GT 2 (8GB, 128GB)",
+      "brand": "realme",
+      "price": 30000,
+      "rating": 4.1,
+      "description": "6.62-inch AMOLED display, Snapdragon 888+ chip, 50MP dual camera, 5000mAh battery, 65W fast charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg"
+    },
+    {
+      "id": 9,
+      "title": "Samsung Galaxy A54 (6GB, 128GB)",
+      "brand": "Samsung",
+      "price": 30000,
+      "rating": 4.3,
+      "description": "6.4-inch Super AMOLED display, Exynos 1380, 50MP triple camera, 5000mAh battery, 25W fast charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/5234774/pexels-photo-5234774.jpeg"
+    },
+    {
+      "id": 10,
+      "title": "Motorola Edge 40 Neo (6GB, 128GB)",
+      "brand": "Motorola",
+      "price": 35000,
+      "rating": 4.0,
+      "description": "6.55-inch pOLED display, MediaTek Dimensity 7030, 50MP dual camera, 4400mAh battery, 68W fast charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/1786433/pexels-photo-1786433.jpeg"
+    }
+  ],
+  "Laptops": [
+    {
+      "id": 11,
+      "title": "Apple MacBook Air (M2, 13-inch, 2022)",
+      "brand": "Apple",
+      "price": 110000,
+      "rating": 4.7,
+      "description": "13-inch Retina display, Apple M2 chip with 8-core CPU, 8GB RAM, 256GB SSD, fanless design, up to 18 hours battery life.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg"
+    },
+    {
+      "id": 12,
+      "title": "Dell XPS 13 (Core i7, 16GB, 512GB)",
+      "brand": "Dell",
+      "price": 120000,
+      "rating": 4.5,
+      "description": "13.4-inch FHD+ InfinityEdge display, 11th Gen Intel Core i7, 16GB RAM, 512GB SSD, slim aluminum chassis.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/2041637/pexels-photo-2041637.jpeg"
+    },
+    {
+      "id": 13,
+      "title": "HP Pavilion 15 (Ryzen 7, 16GB, 512GB)",
+      "brand": "HP",
+      "price": 70000,
+      "rating": 4.2,
+      "description": "15.6-inch Full HD display, AMD Ryzen 7 5700U, 16GB RAM, 512GB SSD, dual speakers and fast charging.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/3688761/pexels-photo-3688761.jpeg"
+    },
+    {
+      "id": 14,
+      "title": "Lenovo Legion 5 (RTX 3050, 16GB, 512GB)",
+      "brand": "Lenovo",
+      "price": 90000,
+      "rating": 4.6,
+      "description": "15.6-inch FHD IPS display (165Hz), Intel Core i5, NVIDIA GeForce RTX 3050, 16GB RAM, 512GB SSD, RGB keyboard.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/1181233/pexels-photo-1181233.jpeg"
+    },
+    {
+      "id": 15,
+      "title": "ASUS ROG Zephyrus G14 (Ryzen 9, RTX 3060, 1TB)",
+      "brand": "ASUS",
+      "price": 150000,
+      "rating": 4.8,
+      "description": "14-inch QHD display, AMD Ryzen 9 5900HS, NVIDIA GeForce RTX 3060, 16GB RAM, 1TB SSD, AniMe Matrix LED lid.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/209016/pexels-photo-209016.jpeg"
+    },
+    {
+      "id": 16,
+      "title": "Acer Aspire 5 (Core i5, 8GB, 512GB)",
+      "brand": "Acer",
+      "price": 45000,
+      "rating": 4.1,
+      "description": "15.6-inch Full HD display, Intel Core i5 11th Gen, 8GB RAM, 512GB SSD, aluminum top cover.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/277456/pexels-photo-277456.jpeg"
+    },
+    {
+      "id": 17,
+      "title": "Samsung Galaxy Book3 (15.6\", Core i7, 16GB, 512GB)",
+      "brand": "Samsung",
+      "price": 100000,
+      "rating": 4.4,
+      "description": "15.6-inch Full HD AMOLED display, 12th Gen Intel Core i7, 16GB RAM, 512GB SSD, preloaded with MS Office.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg"
+    },
+    {
+      "id": 18,
+      "title": "Lenovo IdeaPad Slim 3 (Core i3, 8GB, 256GB)",
+      "brand": "Lenovo",
+      "price": 40000,
+      "rating": 4.0,
+      "description": "15.6-inch HD display, Intel Core i3 11th Gen, 8GB RAM, 256GB SSD, fingerprint reader.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/2041637/pexels-photo-2041637.jpeg"
+    },
+    {
+      "id": 19,
+      "title": "Apple MacBook Pro (M1 Pro, 16-inch, 2021)",
+      "brand": "Apple",
+      "price": 190000,
+      "rating": 4.8,
+      "description": "16-inch Liquid Retina XDR display, Apple M1 Pro chip, 16GB RAM, 512GB SSD, up to 21 hours battery life.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/3688761/pexels-photo-3688761.jpeg"
+    },
+    {
+      "id": 20,
+      "title": "ASUS VivoBook 14 (Intel Core i5, 8GB, 512GB)",
+      "brand": "ASUS",
+      "price": 50000,
+      "rating": 4.2,
+      "description": "14-inch Full HD display, Intel Core i5 10th Gen, 8GB RAM, 512GB SSD, backlit keyboard.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/1181233/pexels-photo-1181233.jpeg"
+    }
+  ],
+  "TVs": [
+    {
+      "id": 21,
+      "title": "Samsung 55-inch 4K Crystal UHD Smart TV",
+      "brand": "Samsung",
+      "price": 70000,
+      "rating": 4.6,
+      "description": "55-inch Crystal 4K UHD display, HDR10+, PurColor, Smart TV with built-in streaming apps, Dolby Digital Plus.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/5490302/pexels-photo-5490302.jpeg"
+    },
+    {
+      "id": 22,
+      "title": "Sony Bravia 65-inch OLED 4K TV",
+      "brand": "Sony",
+      "price": 200000,
+      "rating": 4.8,
+      "description": "65-inch OLED panel with 4K HDR, Cognitive Processor XR, Triluminos Pro, Acoustic Surface Audio, Google TV built-in.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/7031870/pexels-photo-7031870.jpeg"
+    },
+    {
+      "id": 23,
+      "title": "LG 50-inch NanoCell 4K Smart TV",
+      "brand": "LG",
+      "price": 60000,
+      "rating": 4.5,
+      "description": "50-inch NanoCell display with 4K resolution, α7 Gen5 AI processor, ThinQ AI, webOS smart platform, Dolby Vision IQ.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/9069363/pexels-photo-9069363.jpeg"
+    },
+    {
+      "id": 24,
+      "title": "Samsung 32-inch HD LED Smart TV",
+      "brand": "Samsung",
+      "price": 20000,
+      "rating": 4.3,
+      "description": "32-inch HD ready display, PurColor, Mega Contrast, Smart Hub, works with Alexa.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/6557551/pexels-photo-6557551.jpeg"
+    },
+    {
+      "id": 25,
+      "title": "Panasonic 43-inch LED 4K Smart TV",
+      "brand": "Panasonic",
+      "price": 40000,
+      "rating": 4.4,
+      "description": "43-inch LED 4K UHD display, HDR10, Smart features, Vivid Digital Pro, multiple HDMI ports.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/7546551/pexels-photo-7546551.jpeg"
+    },
+    {
+      "id": 26,
+      "title": "Mi 55-inch 4K Android LED TV",
+      "brand": "Mi",
+      "price": 50000,
+      "rating": 4.2,
+      "description": "55-inch 4K Ultra HD LED display, Android TV 11, PatchWall with Netflix and Prime Video, DTS-HD.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/6970070/pexels-photo-6970070.jpeg"
+    },
+    {
+      "id": 27,
+      "title": "Sony 43-inch Full HD LED TV",
+      "brand": "Sony",
+      "price": 35000,
+      "rating": 4.3,
+      "description": "43-inch Full HD LED display, X-Reality PRO, Triluminos Display, Smart TV with Google Assistant.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/7745978/pexels-photo-7745978.jpeg"
+    },
+    {
+      "id": 28,
+      "title": "LG 75-inch Ultra HD Smart TV",
+      "brand": "LG",
+      "price": 250000,
+      "rating": 4.7,
+      "description": "75-inch 4K Ultra HD display, AI ThinQ, 120Hz refresh, webOS, Harman/Kardon speakers.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/7614416/pexels-photo-7614416.jpeg"
+    },
+    {
+      "id": 29,
+      "title": "Sony 85-inch Bravia 4K Smart TV",
+      "brand": "Sony",
+      "price": 350000,
+      "rating": 4.8,
+      "description": "85-inch 4K HDR display, X1 Ultimate processor, Acoustic Multi-Audio, Android TV, Dolby Atmos.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/7546592/pexels-photo-7546592.jpeg"
+    },
+    {
+      "id": 30,
+      "title": "Samsung The Frame 50-inch 4K Art TV",
+      "brand": "Samsung",
+      "price": 80000,
+      "rating": 4.6,
+      "description": "50-inch QLED 4K display, The Frame design with art mode, Quantum HDR, Smart TV, No-gap wall mount included.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/7546592/pexels-photo-7546592.jpeg"
+    }
+  ],
+  "ACs": [
+    {
+      "id": 31,
+      "title": "LG 1.5 Ton 5-Star Inverter Split AC",
+      "brand": "LG",
+      "price": 55000,
+      "rating": 4.5,
+      "description": "1.5 Ton capacity, 5-star rating, Inverter compressor, Ocean Black Protection, silent mode, 100% copper condenser.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/11363688/pexels-photo-11363688.jpeg"
+    },
+    {
+      "id": 32,
+      "title": "Voltas 1.5 Ton 3-Star Split AC",
+      "brand": "Voltas",
+      "price": 35000,
+      "rating": 4.2,
+      "description": "1.5 Ton capacity, 3-star rating, Stabilizer-free operation, Copper condenser, ISEER 3.46.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/6588592/pexels-photo-6588592.jpeg"
+    },
+    {
+      "id": 33,
+      "title": "Daikin 1.5 Ton 5-Star Inverter Split AC",
+      "brand": "Daikin",
+      "price": 60000,
+      "rating": 4.6,
+      "description": "1.5 Ton capacity, 5-star rating, Inverter compressor, PM 2.5 filter, Econo mode, R32 refrigerant.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/16592625/pexels-photo-16592625.jpeg"
+    },
+    {
+      "id": 34,
+      "title": "Blue Star 1.5 Ton 4-Star Split AC",
+      "brand": "Blue Star",
+      "price": 50000,
+      "rating": 4.4,
+      "description": "1.5 Ton capacity, 4-star rating, Penta sensor, Turbo mode, anti-corrosive Bluefin technology.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/7614543/pexels-photo-7614543.jpeg"
+    },
+    {
+      "id": 35,
+      "title": "Hitachi 1.5 Ton 5-Star Inverter Split AC",
+      "brand": "Hitachi",
+      "price": 50000,
+      "rating": 4.5,
+      "description": "1.5 Ton capacity, 5-star rating, 3D Airflow, auto climate technology, anti-bacterial filter.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/2539462/pexels-photo-2539462.jpeg"
+    },
+    {
+      "id": 36,
+      "title": "Voltas 1 Ton 3-Star Split AC",
+      "brand": "Voltas",
+      "price": 30000,
+      "rating": 4.1,
+      "description": "1 Ton capacity, 3-star rating, Copper condenser, eco-friendly refrigerant, rust-proof base.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/11363688/pexels-photo-11363688.jpeg"
+    },
+    {
+      "id": 37,
+      "title": "Carrier 2 Ton 5-Star Split AC",
+      "brand": "Carrier",
+      "price": 50000,
+      "rating": 4.3,
+      "description": "2 Ton capacity, 5-star rating, Advanced air-purifying filter, 4D airflow design, stable performance.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/6588592/pexels-photo-6588592.jpeg"
+    },
+    {
+      "id": 38,
+      "title": "Daikin 1 Ton 5-Star Inverter Split AC",
+      "brand": "Daikin",
+      "price": 40000,
+      "rating": 4.4,
+      "description": "1 Ton capacity, 5-star rating, Inverter compressor, Power Chill operation, Coanda airflow.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/16592625/pexels-photo-16592625.jpeg"
+    },
+    {
+      "id": 39,
+      "title": "LG 1 Ton 3-Star Split AC",
+      "brand": "LG",
+      "price": 35000,
+      "rating": 4.2,
+      "description": "1 Ton capacity, 3-star rating, Dynamic cooling, Ocean Black Protection, low refrigerant detection.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/7614543/pexels-photo-7614543.jpeg"
+    },
+    {
+      "id": 40,
+      "title": "Kelvinator 1.5 Ton 5-Star Split AC",
+      "brand": "Kelvinator",
+      "price": 45000,
+      "rating": 4.0,
+      "description": "1.5 Ton capacity, 5-star rating, Copper condenser, turbo cool, voltage variation protection.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/2539462/pexels-photo-2539462.jpeg"
+    }
+  ],
+  "Electronic": [
+    {
+      "id": 41,
+      "title": "LG 260L Double-Door Frost Free Refrigerator",
+      "brand": "LG",
+      "price": 35000,
+      "rating": 4.4,
+      "description": "260L capacity, Double door, Frost-free, stabilizer-free, smart inverter compressor, door alarm.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/2343467/pexels-photo-2343467.jpeg"
+    },
+    {
+      "id": 42,
+      "title": "Samsung 230L Single-Door Refrigerator",
+      "brand": "Samsung",
+      "price": 25000,
+      "rating": 4.2,
+      "description": "230L capacity, Single door, Convertible mode, energy-efficient compressor, spill-proof toughened glass shelves.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/2079698/pexels-photo-2079698.jpeg"
+    },
+    {
+      "id": 43,
+      "title": "Whirlpool 200L Direct-Cool Refrigerator",
+      "brand": "Whirlpool",
+      "price": 20000,
+      "rating": 4.0,
+      "description": "200L capacity, Single door, Direct-cool, 5-level moisture retention, microblock technology, large vegetable tray.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/4058699/pexels-photo-4058699.jpeg"
+    },
+    {
+      "id": 44,
+      "title": "LG 7kg Front-Load Washing Machine",
+      "brand": "LG",
+      "price": 30000,
+      "rating": 4.5,
+      "description": "7kg capacity, Front load, 6 motion technology, direct drive motor, 1200 RPM, digital inverter technology.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg"
+    },
+    {
+      "id": 45,
+      "title": "IFB 6kg Front-Load Washing Machine",
+      "brand": "IFB",
+      "price": 25000,
+      "rating": 4.3,
+      "description": "6kg capacity, Front load, Crescent Moon drum, inbuilt heater for water, 900 RPM, anti-allergen program.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg"
+    },
+    {
+      "id": 46,
+      "title": "Bosch 7kg Inverter Washing Machine",
+      "brand": "Bosch",
+      "price": 35000,
+      "rating": 4.6,
+      "description": "7kg capacity, Front load, EcoSilence Drive, 1200 RPM, 15 wash programs, VarioDrum technology.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg"
+    },
+    {
+      "id": 47,
+      "title": "Panasonic 20L Convection Microwave Oven",
+      "brand": "Panasonic",
+      "price": 8000,
+      "rating": 4.4,
+      "description": "20L capacity, Convection mode, 1024W heating, LED display, automatic menus, stainless steel cavity.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg"
+    },
+    {
+      "id": 48,
+      "title": "IFB 20L Solo Microwave Oven",
+      "brand": "IFB",
+      "price": 6000,
+      "rating": 4.2,
+      "description": "20L capacity, Solo microwave, 700W, mechanical control, 2-track antenna for uniform heating, child lock.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg"
+    },
+    {
+      "id": 49,
+      "title": "Havells 2000W Room Heater",
+      "brand": "Havells",
+      "price": 4000,
+      "rating": 4.3,
+      "description": "2000W heat output, PTC heating element, fan operation, tip-over switch, overheat protection.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/3230214/pexels-photo-3230214.jpeg"
+    },
+    {
+      "id": 50,
+      "title": "Philips 750W Mixer Grinder",
+      "brand": "Philips",
+      "price": 3500,
+      "rating": 4.1,
+      "description": "750W motor, 3 stainless steel jars (liquidizing, multi-purpose, chutney), push-button cover, anti-skid feet.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/3230214/pexels-photo-3230214.jpeg"
+    },
+    {
+      "id": 51,
+      "title": "Voltas 70L Desert Air Cooler",
+      "brand": "Voltas",
+      "price": 15000,
+      "rating": 4.0,
+      "description": "70L capacity, Desert cooler, honeycomb pads, ice chamber, 3 speed fan, remote control.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/3230214/pexels-photo-3230214.jpeg"
+    },
+    {
+      "id": 52,
+      "title": "Bajaj 750W Mixer Grinder",
+      "brand": "Bajaj",
+      "price": 3000,
+      "rating": 3.9,
+      "description": "750W motor, 3 jars (liquidizing, grinding, chutney), stainless steel blades, multi-speed control.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/3230214/pexels-photo-3230214.jpeg"
+    }
+  ],
+  "Clothing": [
+    {
+      "id": 53,
+      "title": "Levi's Men's 511 Slim Fit Jeans",
+      "brand": "Levi's",
+      "price": 2000,
+      "rating": 4.5,
+      "description": "Slim fit jeans with 5-pocket styling, stretch cotton denim for comfort, zip fly, multiple washes available.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/3768005/pexels-photo-3768005.jpeg"
+    },
+    {
+      "id": 54,
+      "title": "United Colors of Benetton Men's Polo T-Shirt",
+      "brand": "United Colors of Benetton",
+      "price": 1200,
+      "rating": 4.4,
+      "description": "Classic cotton polo T-shirt, regular fit, ribbed collar, short sleeves, solid colors and stripes.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/1884579/pexels-photo-1884579.jpeg"
+    },
+    {
+      "id": 55,
+      "title": "Peter England Men's Formal Shirt",
+      "brand": "Peter England",
+      "price": 1500,
+      "rating": 4.3,
+      "description": "100% cotton formal shirt, regular fit, full sleeves, spread collar, available in solid and checks.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/1020370/pexels-photo-1020370.jpeg"
+    },
+    {
+      "id": 56,
+      "title": "Puma Men's Round-Neck T-Shirt",
+      "brand": "Puma",
+      "price": 800,
+      "rating": 4.2,
+      "description": "Casual round-neck T-shirt, 100% cotton, quick-dry fabric, printed logo on front, available in multiple colors.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/3489129/pexels-photo-3489129.jpeg"
+    },
+    {
+      "id": 57,
+      "title": "Allen Solly Men's Slim Fit Chinos",
+      "brand": "Allen Solly",
+      "price": 1800,
+      "rating": 4.1,
+      "description": "Slim-fit chinos with stretch cotton blend, mid-rise waist, five-pocket design, formal and casual wear.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/1233648/pexels-photo-1233648.jpeg"
+    },
+    {
+      "id": 58,
+      "title": "W Women's Printed Kurta",
+      "brand": "W",
+      "price": 1200,
+      "rating": 4.2,
+      "description": "Cotton printed straight Kurta, round neck, 3/4 sleeves, ethnic block print design, knee-length.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/3812433/pexels-photo-3812433.jpeg"
+    },
+    {
+      "id": 59,
+      "title": "Aurelia Women's Embroidered Kurta",
+      "brand": "Aurelia",
+      "price": 1500,
+      "rating": 4.3,
+      "description": "Cotton embroidered A-line Kurta, V-neck, full sleeves, intricate embroidery on front panel.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/1488467/pexels-photo-1488467.jpeg"
+    },
+    {
+      "id": 60,
+      "title": "AND Women's Solid A-line Dress",
+      "brand": "AND",
+      "price": 1800,
+      "rating": 4.4,
+      "description": "Polyester A-line dress, round neck, half sleeves, knee-length, solid color for casual wear.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg"
+    },
+    {
+      "id": 61,
+      "title": "Calvin Klein Women's Skinny Jeans",
+      "brand": "Calvin Klein",
+      "price": 2500,
+      "rating": 4.5,
+      "description": "Skinny fit stretch denim jeans, mid-rise, five-pocket style, zip fly, classic blue wash.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg"
+    },
+    {
+      "id": 62,
+      "title": "Jack & Jones Men's Hoodie",
+      "brand": "Jack & Jones",
+      "price": 1200,
+      "rating": 4.2,
+      "description": "Cotton pullover hoodie, slim fit, kangaroo pocket, drawstring hood, ribbed cuffs and hem.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/3965551/pexels-photo-3965551.jpeg"
+    },
+    {
+      "id": 63,
+      "title": "H&M Women's Floral Print Dress",
+      "brand": "H&M",
+      "price": 1500,
+      "rating": 4.3,
+      "description": "Chiffon floral print maxi dress, V-neck, spaghetti straps, flowy silhouette, lined inner.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/3735641/pexels-photo-3735641.jpeg"
+    },
+    {
+      "id": 64,
+      "title": "Adidas Women's Track Pants",
+      "brand": "Adidas",
+      "price": 2000,
+      "rating": 4.1,
+      "description": "Polyester track pants, slim fit, elastic waistband with drawstring, side pockets, trademark 3-stripes.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/3965548/pexels-photo-3965548.jpeg"
+    }
+  ]
+}

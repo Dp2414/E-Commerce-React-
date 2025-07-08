@@ -1,0 +1,39 @@
+.sidebill{
+    display: flex;
+justify-content: space-between;  
+}
+.billing{
+    position: sticky;
+  top: 20px;
+  max-height: 80vh;
+  overflow-y: auto;
+  border-radius: 10px;
+  z-index: 100;
+}
+.saveforlater{
+  border: none;
+  background-color: white  ;
+  color: blue;
+  text-decoration: underline;
+}
+/* .column{
+  width: 100%;
+} */
+
+.basketcard{
+  display: flex;
+  flex-direction: row;
+}
+/* .cardbody{
+  width: 100%;
+} */
+
+.column{
+  width: 70%;
+}
+
+.basketimages{
+  width:40%;
+  object-fit: cover;
+  height: 300px;
+}

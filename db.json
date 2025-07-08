@@ -1,0 +1,1742 @@
+{
+  "Mobiles": [
+    {
+      "id": 1,
+      "title": "Samsung Galaxy S23 Ultra (512GB)",
+      "brand": "Samsung",
+      "price": 120000,
+      "rating": 4.6,
+      "description": "6.8-inch Dynamic AMOLED display, 200MP camera, Snapdragon 8 Gen 2 chipset, 12GB RAM, 5000mAh battery, up to 45W fast charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
+      "reviews": [
+        {
+          "user": "TechEnthusiast",
+          "rating": 5,
+          "comment": "The camera quality is absolutely stunning! The 200MP sensor captures incredible detail."
+        },
+        {
+          "user": "MobileGuru",
+          "rating": 4,
+          "comment": "Great phone but quite expensive. Battery life could be better for this price range."
+        },
+        {
+          "user": "SamFan",
+          "rating": 5,
+          "comment": "Worth every penny! The display is breathtaking and performance is flawless."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Apple iPhone 14 Pro (128GB)",
+      "brand": "Apple",
+      "price": 130000,
+      "rating": 4.7,
+      "description": "6.1-inch Super Retina XDR OLED display, A16 Bionic chip, 48MP main camera, 6GB RAM, 3274mAh battery, iOS ecosystem.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg",
+      "reviews": [
+        {
+          "user": "AppleLover",
+          "rating": 5,
+          "comment": "The dynamic island feature is revolutionary! iOS experience is as smooth as ever."
+        },
+        {
+          "user": "PhotographyBuff",
+          "rating": 4,
+          "comment": "Camera upgrade is significant but battery life could be improved."
+        },
+        {
+          "user": "TechCritic",
+          "rating": 4,
+          "comment": "Excellent build quality but the price hike is hard to justify."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "OnePlus 11 (8GB RAM, 128GB)",
+      "brand": "OnePlus",
+      "price": 55000,
+      "rating": 4.5,
+      "description": "6.7-inch Fluid AMOLED display, Snapdragon 8 Gen 2, 50MP triple camera, 5000mAh battery, 100W fast charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/5234774/pexels-photo-5234774.jpeg",
+      "reviews": [
+        {
+          "user": "OnePlusFan",
+          "rating": 5,
+          "comment": "The charging speed is insane! Goes from 0 to 100% in just 25 minutes."
+        },
+        {
+          "user": "ValueBuyer",
+          "rating": 4,
+          "comment": "Best flagship killer in the market right now. OxygenOS is clean and fast."
+        },
+        {
+          "user": "CameraExpert",
+          "rating": 4,
+          "comment": "Great camera performance for the price, though low light could be better."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Google Pixel 7 Pro (12GB, 256GB)",
+      "brand": "Google",
+      "price": 70000,
+      "rating": 4.4,
+      "description": "6.7-inch QHD+ OLED display, Google Tensor G2 chip, 50MP triple camera with Magic Eraser, 5000mAh battery, Android 13.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/1786433/pexels-photo-1786433.jpeg",
+      "reviews": [
+        {
+          "user": "AndroidPurist",
+          "rating": 5,
+          "comment": "The clean Android experience is unmatched. Camera software is magical!"
+        },
+        {
+          "user": "PixelUser",
+          "rating": 4,
+          "comment": "Love the AI features but battery life could be better for heavy users."
+        },
+        {
+          "user": "TechReviewer",
+          "rating": 4,
+          "comment": "Best point-and-shoot camera on any smartphone right now."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Xiaomi Redmi Note 12 Pro (6GB, 128GB)",
+      "brand": "Xiaomi",
+      "price": 25000,
+      "rating": 4.2,
+      "description": "6.7-inch Full HD+ AMOLED display, MediaTek Dimensity 1080, 50MP quad camera, 5000mAh battery, 67W fast charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/1786433/pexels-photo-1786433.jpeg",
+      "reviews": [
+        {
+          "user": "BudgetBuyer",
+          "rating": 5,
+          "comment": "Unbelievable value for money! AMOLED display at this price is a steal."
+        },
+        {
+          "user": "MIUIHater",
+          "rating": 3,
+          "comment": "Hardware is great but MIUI has too many ads and bloatware."
+        },
+        {
+          "user": "CameraLover",
+          "rating": 4,
+          "comment": "Surprisingly good camera performance for the price range."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Vivo V27 Pro (8GB, 256GB)",
+      "brand": "Vivo",
+      "price": 35000,
+      "rating": 4.3,
+      "description": "6.7-inch AMOLED display, MediaTek Dimensity 8200, 50MP triple camera, 4600mAh battery, 66W FlashCharge.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/5234774/pexels-photo-5234774.jpeg",
+      "reviews": [
+        {
+          "user": "SelfieExpert",
+          "rating": 5,
+          "comment": "Best selfie camera in this price range! Skin tones look very natural."
+        },
+        {
+          "user": "PerformanceUser",
+          "rating": 4,
+          "comment": "Smooth performance for daily tasks, gaming is decent too."
+        },
+        {
+          "user": "DesignLover",
+          "rating": 5,
+          "comment": "The color-changing back panel is so unique and beautiful!"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "OPPO Reno8 Pro (8GB, 128GB)",
+      "brand": "OPPO",
+      "price": 30000,
+      "rating": 4.2,
+      "description": "6.7-inch AMOLED display, MediaTek Dimensity 8100, 50MP triple camera, 4500mAh battery, 80W SuperVOOC charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
+      "reviews": [
+        {
+          "user": "ChargingLover",
+          "rating": 5,
+          "comment": "80W charging is a game changer! Phone charges fully while I shower."
+        },
+        {
+          "user": "Gamer123",
+          "rating": 4,
+          "comment": "Handles PUBG at high settings without any heating issues."
+        },
+        {
+          "user": "CameraCritic",
+          "rating": 3,
+          "comment": "Good camera hardware but software processing is too aggressive."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "realme GT 2 (8GB, 128GB)",
+      "brand": "realme",
+      "price": 30000,
+      "rating": 4.1,
+      "description": "6.62-inch AMOLED display, Snapdragon 888+ chip, 50MP dual camera, 5000mAh battery, 65W fast charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg",
+      "reviews": [
+        {
+          "user": "PowerUser",
+          "rating": 4,
+          "comment": "Flagship-level performance at mid-range price. Great for multitasking."
+        },
+        {
+          "user": "BatteryLife",
+          "rating": 5,
+          "comment": "Easily lasts a full day with heavy usage. Fast charging is a bonus."
+        },
+        {
+          "user": "UIExpert",
+          "rating": 3,
+          "comment": "Hardware is excellent but realme UI needs more polish."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Samsung Galaxy A54 (6GB, 128GB)",
+      "brand": "Samsung",
+      "price": 30000,
+      "rating": 4.3,
+      "description": "6.4-inch Super AMOLED display, Exynos 1380, 50MP triple camera, 5000mAh battery, 25W fast charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/5234774/pexels-photo-5234774.jpeg",
+      "reviews": [
+        {
+          "user": "SamsungFan",
+          "rating": 4,
+          "comment": "Great AMOLED display as expected from Samsung. Good mid-range option."
+        },
+        {
+          "user": "CameraUser",
+          "rating": 4,
+          "comment": "Camera performance is good in daylight, struggles a bit in low light."
+        },
+        {
+          "user": "BatteryCritic",
+          "rating": 3,
+          "comment": "Battery life is decent but charging speed should be faster in 2023."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Motorola Edge 40 Neo (6GB, 128GB)",
+      "brand": "Motorola",
+      "price": 35000,
+      "rating": 4.0,
+      "description": "6.55-inch pOLED display, MediaTek Dimensity 7030, 50MP dual camera, 4400mAh battery, 68W fast charging.",
+      "category": "Mobiles",
+      "image": "https://images.pexels.com/photos/1786433/pexels-photo-1786433.jpeg",
+      "reviews": [
+        {
+          "user": "StockAndroidFan",
+          "rating": 5,
+          "comment": "Clean Android experience with no bloatware. Rare to find these days."
+        },
+        {
+          "user": "DesignLover",
+          "rating": 4,
+          "comment": "Sleek design and comfortable to hold. Display colors are vibrant."
+        },
+        {
+          "user": "PerformanceUser",
+          "rating": 3,
+          "comment": "Good for daily use but not the best for heavy gaming."
+        }
+      ]
+    }
+  ],
+  "Laptops": [
+    {
+      "id": 11,
+      "title": "Apple MacBook Air (M2, 13-inch, 2022)",
+      "brand": "Apple",
+      "price": 110000,
+      "rating": 4.7,
+      "description": "13-inch Retina display, Apple M2 chip with 8-core CPU, 8GB RAM, 256GB SSD, fanless design, up to 18 hours battery life.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg",
+      "reviews": [
+        {
+          "user": "CreativePro",
+          "rating": 5,
+          "comment": "The M2 chip is incredibly powerful and efficient. Battery life is phenomenal."
+        },
+        {
+          "user": "StudentUser",
+          "rating": 5,
+          "comment": "Perfect for college - lightweight and lasts all day on a single charge."
+        },
+        {
+          "user": "TechCritic",
+          "rating": 4,
+          "comment": "Amazing machine but 8GB RAM might be limiting for power users."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Dell XPS 13 (Core i7, 16GB, 512GB)",
+      "brand": "Dell",
+      "price": 120000,
+      "rating": 4.5,
+      "description": "13.4-inch FHD+ InfinityEdge display, 11th Gen Intel Core i7, 16GB RAM, 512GB SSD, slim aluminum chassis.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/2041637/pexels-photo-2041637.jpeg",
+      "reviews": [
+        {
+          "user": "BusinessUser",
+          "rating": 5,
+          "comment": "The best Windows ultrabook available. Build quality is exceptional."
+        },
+        {
+          "user": "DesignerPro",
+          "rating": 4,
+          "comment": "Nearly bezel-less display is gorgeous. Keyboard is comfortable for long typing sessions."
+        },
+        {
+          "user": "TechEnthusiast",
+          "rating": 4,
+          "comment": "Great performance but tends to get warm under heavy load."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "HP Pavilion 15 (Ryzen 7, 16GB, 512GB)",
+      "brand": "HP",
+      "price": 70000,
+      "rating": 4.2,
+      "description": "15.6-inch Full HD display, AMD Ryzen 7 5700U, 16GB RAM, 512GB SSD, dual speakers and fast charging.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/3688761/pexels-photo-3688761.jpeg",
+      "reviews": [
+        {
+          "user": "BudgetBuyer",
+          "rating": 5,
+          "comment": "Excellent value for money. Ryzen processor offers great performance."
+        },
+        {
+          "user": "StudentUser",
+          "rating": 4,
+          "comment": "Good all-rounder for studies and light gaming. Build quality is decent."
+        },
+        {
+          "user": "AudioUser",
+          "rating": 3,
+          "comment": "Speakers could be better. Performance is good for the price though."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Lenovo Legion 5 (RTX 3050, 16GB, 512GB)",
+      "brand": "Lenovo",
+      "price": 90000,
+      "rating": 4.6,
+      "description": "15.6-inch FHD IPS display (165Hz), Intel Core i5, NVIDIA GeForce RTX 3050, 16GB RAM, 512GB SSD, RGB keyboard.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/1181233/pexels-photo-1181233.jpeg",
+      "reviews": [
+        {
+          "user": "GamerPro",
+          "rating": 5,
+          "comment": "Handles all modern games at high settings. The 165Hz display is buttery smooth."
+        },
+        {
+          "user": "ContentCreator",
+          "rating": 4,
+          "comment": "Great for video editing and 3D work. Cooling system works well under load."
+        },
+        {
+          "user": "PortabilityUser",
+          "rating": 3,
+          "comment": "Performance is excellent but it's quite heavy to carry around."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "ASUS ROG Zephyrus G14 (Ryzen 9, RTX 3060, 1TB)",
+      "brand": "ASUS",
+      "price": 150000,
+      "rating": 4.8,
+      "description": "14-inch QHD display, AMD Ryzen 9 5900HS, NVIDIA GeForce RTX 3060, 16GB RAM, 1TB SSD, AniMe Matrix LED lid.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/209016/pexels-photo-209016.jpeg",
+      "reviews": [
+        {
+          "user": "PowerUser",
+          "rating": 5,
+          "comment": "Unbelievable power in such a compact form factor. The LED lid is a cool feature."
+        },
+        {
+          "user": "TravelGamer",
+          "rating": 5,
+          "comment": "Perfect balance of portability and performance. Battery life is decent for a gaming laptop."
+        },
+        {
+          "user": "DesignCritic",
+          "rating": 4,
+          "comment": "Almost perfect, but the lack of webcam is disappointing in 2023."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Acer Aspire 5 (Core i5, 8GB, 512GB)",
+      "brand": "Acer",
+      "price": 45000,
+      "rating": 4.1,
+      "description": "15.6-inch Full HD display, Intel Core i5 11th Gen, 8GB RAM, 512GB SSD, aluminum top cover.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/277456/pexels-photo-277456.jpeg",
+      "reviews": [
+        {
+          "user": "FirstTimeBuyer",
+          "rating": 5,
+          "comment": "Great entry-level laptop for everyday tasks. SSD makes it feel fast."
+        },
+        {
+          "user": "StudentUser",
+          "rating": 4,
+          "comment": "Good for online classes and basic productivity. Build quality is better than expected."
+        },
+        {
+          "user": "Multitasker",
+          "rating": 3,
+          "comment": "8GB RAM feels limiting when having many browser tabs open."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Samsung Galaxy Book3 (15.6\", Core i7, 16GB, 512GB)",
+      "brand": "Samsung",
+      "price": 100000,
+      "rating": 4.4,
+      "description": "15.6-inch Full HD AMOLED display, 12th Gen Intel Core i7, 16GB RAM, 512GB SSD, preloaded with MS Office.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg",
+      "reviews": [
+        {
+          "user": "DisplayLover",
+          "rating": 5,
+          "comment": "The AMOLED display is absolutely stunning with perfect blacks."
+        },
+        {
+          "user": "BusinessUser",
+          "rating": 4,
+          "comment": "Great for presentations and office work. Included MS Office is a nice bonus."
+        },
+        {
+          "user": "BatteryCritic",
+          "rating": 3,
+          "comment": "Beautiful screen but battery life suffers because of it."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Lenovo IdeaPad Slim 3 (Core i3, 8GB, 256GB)",
+      "brand": "Lenovo",
+      "price": 40000,
+      "rating": 4.0,
+      "description": "15.6-inch HD display, Intel Core i3 11th Gen, 8GB RAM, 256GB SSD, fingerprint reader.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/2041637/pexels-photo-2041637.jpeg",
+      "reviews": [
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Surprisingly good for basic tasks. Fingerprint reader is a nice security feature."
+        },
+        {
+          "user": "StudentUser",
+          "rating": 3,
+          "comment": "Gets the job done but display resolution could be better."
+        },
+        {
+          "user": "FirstTimeUser",
+          "rating": 4,
+          "comment": "Perfect for my needs - browsing, emails and document work."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Apple MacBook Pro (M1 Pro, 16-inch, 2021)",
+      "brand": "Apple",
+      "price": 190000,
+      "rating": 4.8,
+      "description": "16-inch Liquid Retina XDR display, Apple M1 Pro chip, 16GB RAM, 512GB SSD, up to 21 hours battery life.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/3688761/pexels-photo-3688761.jpeg",
+      "reviews": [
+        {
+          "user": "CreativePro",
+          "rating": 5,
+          "comment": "The best laptop I've ever used. Handles 4K video editing like a champ."
+        },
+        {
+          "user": "DeveloperUser",
+          "rating": 5,
+          "comment": "M1 Pro chip is a beast for coding and compiling. Silent operation even under load."
+        },
+        {
+          "user": "PriceConscious",
+          "rating": 4,
+          "comment": "Absolutely amazing but very expensive. Only worth it if you really need the power."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "ASUS VivoBook 14 (Intel Core i5, 8GB, 512GB)",
+      "brand": "ASUS",
+      "price": 50000,
+      "rating": 4.2,
+      "description": "14-inch Full HD display, Intel Core i5 10th Gen, 8GB RAM, 512GB SSD, backlit keyboard.",
+      "category": "Laptops",
+      "image": "https://images.pexels.com/photos/1181233/pexels-photo-1181233.jpeg",
+      "reviews": [
+        {
+          "user": "PortableUser",
+          "rating": 4,
+          "comment": "Lightweight and easy to carry. Backlit keyboard is useful in low light."
+        },
+        {
+          "user": "StudentUser",
+          "rating": 4,
+          "comment": "Good balance of performance and portability for college use."
+        },
+        {
+          "user": "UpgradeUser",
+          "rating": 3,
+          "comment": "RAM is soldered so can't be upgraded later. Should have gone for 16GB model."
+        }
+      ]
+    }
+  ],
+  "TVs": [
+    {
+      "id": 21,
+      "title": "Samsung 55-inch 4K Crystal UHD Smart TV",
+      "brand": "Samsung",
+      "price": 70000,
+      "rating": 4.6,
+      "description": "55-inch Crystal 4K UHD display, HDR10+, PurColor, Smart TV with built-in streaming apps, Dolby Digital Plus.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/5490302/pexels-photo-5490302.jpeg",
+      "reviews": [
+        {
+          "user": "MovieBuff",
+          "rating": 5,
+          "comment": "Picture quality is amazing for the price. Colors really pop with HDR content."
+        },
+        {
+          "user": "SmartHomeUser",
+          "rating": 4,
+          "comment": "Tizen OS works smoothly. Easy to connect with other smart devices."
+        },
+        {
+          "user": "SportsFan",
+          "rating": 4,
+          "comment": "Great for watching sports - fast motion looks smooth with minimal blur."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Sony Bravia 65-inch OLED 4K TV",
+      "brand": "Sony",
+      "price": 200000,
+      "rating": 4.8,
+      "description": "65-inch OLED panel with 4K HDR, Cognitive Processor XR, Triluminos Pro, Acoustic Surface Audio, Google TV built-in.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/7031870/pexels-photo-7031870.jpeg",
+      "reviews": [
+        {
+          "user": "HomeTheaterEnthusiast",
+          "rating": 5,
+          "comment": "The best picture quality I've ever seen. Perfect blacks and infinite contrast."
+        },
+        {
+          "user": "AudioPhile",
+          "rating": 5,
+          "comment": "The Acoustic Surface Audio is revolutionary - sound comes directly from the screen!"
+        },
+        {
+          "user": "PriceConscious",
+          "rating": 4,
+          "comment": "Expensive but worth it if you want the absolute best TV technology."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "LG 50-inch NanoCell 4K Smart TV",
+      "brand": "LG",
+      "price": 60000,
+      "rating": 4.5,
+      "description": "50-inch NanoCell display with 4K resolution, α7 Gen5 AI processor, ThinQ AI, webOS smart platform, Dolby Vision IQ.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/9069363/pexels-photo-9069363.jpeg",
+      "reviews": [
+        {
+          "user": "TechEnthusiast",
+          "rating": 5,
+          "comment": "NanoCell technology provides excellent color accuracy. Great alternative to OLED."
+        },
+        {
+          "user": "StreamingUser",
+          "rating": 4,
+          "comment": "webOS is the best smart TV platform - intuitive and fast."
+        },
+        {
+          "user": "GamingUser",
+          "rating": 5,
+          "comment": "Low input lag makes this perfect for next-gen gaming consoles."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Samsung 32-inch HD LED Smart TV",
+      "brand": "Samsung",
+      "price": 20000,
+      "rating": 4.3,
+      "description": "32-inch HD ready display, PurColor, Mega Contrast, Smart Hub, works with Alexa.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/6557551/pexels-photo-6557551.jpeg",
+      "reviews": [
+        {
+          "user": "BedroomUser",
+          "rating": 5,
+          "comment": "Perfect size and quality for a bedroom TV. Smart features work well."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Great value for money. Picture is decent for HD content."
+        },
+        {
+          "user": "GamingUser",
+          "rating": 3,
+          "comment": "Works fine for casual viewing but not ideal for gaming due to response time."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Panasonic 43-inch LED 4K Smart TV",
+      "brand": "Panasonic",
+      "price": 40000,
+      "rating": 4.4,
+      "description": "43-inch LED 4K UHD display, HDR10, Smart features, Vivid Digital Pro, multiple HDMI ports.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/7546551/pexels-photo-7546551.jpeg",
+      "reviews": [
+        {
+          "user": "ReliabilityUser",
+          "rating": 5,
+          "comment": "Panasonic quality is unmatched. This TV has been working flawlessly for years."
+        },
+        {
+          "user": "SmallSpaceUser",
+          "rating": 4,
+          "comment": "Perfect size for my apartment. 4K makes a noticeable difference even at this size."
+        },
+        {
+          "user": "SmartTVUser",
+          "rating": 3,
+          "comment": "Smart features are basic compared to Samsung or LG, but picture quality is good."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Mi 55-inch 4K Android LED TV",
+      "brand": "Mi",
+      "price": 50000,
+      "rating": 4.2,
+      "description": "55-inch 4K Ultra HD LED display, Android TV 11, PatchWall with Netflix and Prime Video, DTS-HD.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/6970070/pexels-photo-6970070.jpeg",
+      "reviews": [
+        {
+          "user": "ValueBuyer",
+          "rating": 5,
+          "comment": "Unbeatable price for a 55-inch 4K Android TV. Picture quality exceeds expectations."
+        },
+        {
+          "user": "StreamingUser",
+          "rating": 4,
+          "comment": "Android TV gives access to all streaming apps. Google Assistant works well."
+        },
+        {
+          "user": "BuildQuality",
+          "rating": 3,
+          "comment": "Picture is great but the plastic body feels a bit cheap compared to premium brands."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Sony 43-inch Full HD LED TV",
+      "brand": "Sony",
+      "price": 35000,
+      "rating": 4.3,
+      "description": "43-inch Full HD LED display, X-Reality PRO, Triluminos Display, Smart TV with Google Assistant.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/7745978/pexels-photo-7745978.jpeg",
+      "reviews": [
+        {
+          "user": "PictureQuality",
+          "rating": 5,
+          "comment": "Sony's image processing is the best. Even HD content looks upscaled and sharp."
+        },
+        {
+          "user": "ReliabilityUser",
+          "rating": 5,
+          "comment": "Sony TVs last forever. My previous one worked for 10+ years without issues."
+        },
+        {
+          "user": "SmartTVUser",
+          "rating": 3,
+          "comment": "Wish it was 4K at this price, but picture quality is excellent for Full HD."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "LG 75-inch Ultra HD Smart TV",
+      "brand": "LG",
+      "price": 250000,
+      "rating": 4.7,
+      "description": "75-inch 4K Ultra HD display, AI ThinQ, 120Hz refresh, webOS, Harman/Kardon speakers.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/7614416/pexels-photo-7614416.jpeg",
+      "reviews": [
+        {
+          "user": "HomeTheaterUser",
+          "rating": 5,
+          "comment": "Massive screen with stunning picture quality. Perfect for movie nights."
+        },
+        {
+          "user": "GamingEnthusiast",
+          "rating": 5,
+          "comment": "120Hz refresh rate and HDMI 2.1 make this ideal for PS5 and Xbox Series X."
+        },
+        {
+          "user": "SpaceConscious",
+          "rating": 4,
+          "comment": "Make sure you have enough wall space - this TV is enormous!"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Sony 85-inch Bravia 4K Smart TV",
+      "brand": "Sony",
+      "price": 350000,
+      "rating": 4.8,
+      "description": "85-inch 4K HDR display, X1 Ultimate processor, Acoustic Multi-Audio, Android TV, Dolby Atmos.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/7546592/pexels-photo-7546592.jpeg",
+      "reviews": [
+        {
+          "user": "HomeCinemaUser",
+          "rating": 5,
+          "comment": "This is basically a home theater. The size and picture quality are jaw-dropping."
+        },
+        {
+          "user": "AudioPhile",
+          "rating": 5,
+          "comment": "The Acoustic Multi-Audio system makes dialogue crystal clear without a soundbar."
+        },
+        {
+          "user": "BudgetConscious",
+          "rating": 4,
+          "comment": "Extremely expensive but you're paying for the absolute best home viewing experience."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Samsung The Frame 50-inch 4K Art TV",
+      "brand": "Samsung",
+      "price": 80000,
+      "rating": 4.6,
+      "description": "50-inch QLED 4K display, The Frame design with art mode, Quantum HDR, Smart TV, No-gap wall mount included.",
+      "category": "TVs",
+      "image": "https://images.pexels.com/photos/7546592/pexels-photo-7546592.jpeg",
+      "reviews": [
+        {
+          "user": "InteriorDesigner",
+          "rating": 5,
+          "comment": "Blends perfectly with home decor in art mode. Guests often don't realize it's a TV!"
+        },
+        {
+          "user": "ArtLover",
+          "rating": 5,
+          "comment": "The art store has thousands of artworks to display. Changes the whole feel of my living room."
+        },
+        {
+          "user": "ValueUser",
+          "rating": 4,
+          "comment": "You pay a premium for the design, but the picture quality is also excellent."
+        }
+      ]
+    }
+  ],
+  "ACs": [
+    {
+      "id": 31,
+      "title": "LG 1.5 Ton 5-Star Inverter Split AC",
+      "brand": "LG",
+      "price": 55000,
+      "rating": 4.5,
+      "description": "1.5 Ton capacity, 5-star rating, Inverter compressor, Ocean Black Protection, silent mode, 100% copper condenser.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/11363688/pexels-photo-11363688.jpeg",
+      "reviews": [
+        {
+          "user": "PowerSaver",
+          "rating": 5,
+          "comment": "Electricity bills have reduced significantly compared to my old non-inverter AC."
+        },
+        {
+          "user": "HotClimateUser",
+          "rating": 5,
+          "comment": "Cools my large bedroom quickly even in 45°C summer. Very quiet operation."
+        },
+        {
+          "user": "InstallationUser",
+          "rating": 4,
+          "comment": "Great performance but installation took longer than expected."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Voltas 1.5 Ton 3-Star Split AC",
+      "brand": "Voltas",
+      "price": 35000,
+      "rating": 4.2,
+      "description": "1.5 Ton capacity, 3-star rating, Stabilizer-free operation, Copper condenser, ISEER 3.46.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/6588592/pexels-photo-6588592.jpeg",
+      "reviews": [
+        {
+          "user": "BudgetBuyer",
+          "rating": 5,
+          "comment": "Best value AC in this capacity. Cools efficiently and Voltas service is reliable."
+        },
+        {
+          "user": "FirstTimeUser",
+          "rating": 4,
+          "comment": "Easy to use and maintain. Remote control is simple and intuitive."
+        },
+        {
+          "user": "PowerUser",
+          "rating": 3,
+          "comment": "Good for moderate climates but struggles a bit in extreme heat waves."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Daikin 1.5 Ton 5-Star Inverter Split AC",
+      "brand": "Daikin",
+      "price": 60000,
+      "rating": 4.6,
+      "description": "1.5 Ton capacity, 5-star rating, Inverter compressor, PM 2.5 filter, Econo mode, R32 refrigerant.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/16592625/pexels-photo-16592625.jpeg",
+      "reviews": [
+        {
+          "user": "PremiumBuyer",
+          "rating": 5,
+          "comment": "Daikin's build quality is exceptional. The PM 2.5 filter makes a noticeable difference in air quality."
+        },
+        {
+          "user": "TechSavvy",
+          "rating": 5,
+          "comment": "Most energy efficient AC I've owned. Econo mode maintains temperature perfectly."
+        },
+        {
+          "user": "PriceConscious",
+          "rating": 4,
+          "comment": "Expensive but worth it for the quality and efficiency."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Blue Star 1.5 Ton 4-Star Split AC",
+      "brand": "Blue Star",
+      "price": 50000,
+      "rating": 4.4,
+      "description": "1.5 Ton capacity, 4-star rating, Penta sensor, Turbo mode, anti-corrosive Bluefin technology.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/7614543/pexels-photo-7614543.jpeg",
+      "reviews": [
+        {
+          "user": "CommercialUser",
+          "rating": 5,
+          "comment": "Used in my office space - cools evenly and handles frequent on/off cycles well."
+        },
+        {
+          "user": "HotClimateUser",
+          "rating": 4,
+          "comment": "Turbo mode is great for quick cooling when coming home on a hot day."
+        },
+        {
+          "user": "CoastalUser",
+          "rating": 5,
+          "comment": "Bluefin technology is perfect for coastal areas - no corrosion issues."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Hitachi 1.5 Ton 5-Star Inverter Split AC",
+      "brand": "Hitachi",
+      "price": 50000,
+      "rating": 4.5,
+      "description": "1.5 Ton capacity, 5-star rating, 3D Airflow, auto climate technology, anti-bacterial filter.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/2539462/pexels-photo-2539462.jpeg",
+      "reviews": [
+        {
+          "user": "AllergySufferer",
+          "rating": 5,
+          "comment": "The anti-bacterial filter has reduced my allergy symptoms significantly."
+        },
+        {
+          "user": "LargeRoomUser",
+          "rating": 5,
+          "comment": "3D airflow distributes cool air evenly across my large living room."
+        },
+        {
+          "user": "AutoModeUser",
+          "rating": 4,
+          "comment": "Auto climate technology maintains perfect temperature without manual adjustments."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Voltas 1 Ton 3-Star Split AC",
+      "brand": "Voltas",
+      "price": 30000,
+      "rating": 4.1,
+      "description": "1 Ton capacity, 3-star rating, Copper condenser, eco-friendly refrigerant, rust-proof base.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/11363688/pexels-photo-11363688.jpeg",
+      "reviews": [
+        {
+          "user": "SmallRoomUser",
+          "rating": 5,
+          "comment": "Perfect for my 120 sq ft bedroom. Cools quickly and efficiently."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Great value AC for small spaces. Voltas service network is extensive."
+        },
+        {
+          "user": "PowerUser",
+          "rating": 3,
+          "comment": "Adequate for small rooms but struggles in larger spaces or extreme heat."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Carrier 2 Ton 5-Star Split AC",
+      "brand": "Carrier",
+      "price": 50000,
+      "rating": 4.3,
+      "description": "2 Ton capacity, 5-star rating, Advanced air-purifying filter, 4D airflow design, stable performance.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/6588592/pexels-photo-6588592.jpeg",
+      "reviews": [
+        {
+          "user": "LargeSpaceUser",
+          "rating": 5,
+          "comment": "Finally an AC that can properly cool my 300 sq ft living area."
+        },
+        {
+          "user": "AirQualityUser",
+          "rating": 4,
+          "comment": "The air purifying filter makes a noticeable difference in indoor air quality."
+        },
+        {
+          "user": "InstallationUser",
+          "rating": 3,
+          "comment": "Great performance but installation crew wasn't very professional."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Daikin 1 Ton 5-Star Inverter Split AC",
+      "brand": "Daikin",
+      "price": 40000,
+      "rating": 4.4,
+      "description": "1 Ton capacity, 5-star rating, Inverter compressor, Power Chill operation, Coanda airflow.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/16592625/pexels-photo-16592625.jpeg",
+      "reviews": [
+        {
+          "user": "BedroomUser",
+          "rating": 5,
+          "comment": "Super silent operation perfect for bedroom use. Power chill cools the room in minutes."
+        },
+        {
+          "user": "EnergySaver",
+          "rating": 5,
+          "comment": "My electricity bill is 30% lower compared to my old 3-star AC."
+        },
+        {
+          "user": "TechLover",
+          "rating": 4,
+          "comment": "Coanda airflow technology prevents direct cold air blast - very comfortable."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "LG 1 Ton 3-Star Split AC",
+      "brand": "LG",
+      "price": 35000,
+      "rating": 4.2,
+      "description": "1 Ton capacity, 3-star rating, Dynamic cooling, Ocean Black Protection, low refrigerant detection.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/7614543/pexels-photo-7614543.jpeg",
+      "reviews": [
+        {
+          "user": "ReliabilityUser",
+          "rating": 5,
+          "comment": "LG products last forever. My previous LG AC worked for 8 years without issues."
+        },
+        {
+          "user": "SmallHomeUser",
+          "rating": 4,
+          "comment": "Perfect for my compact apartment. Cools quickly and maintains temperature well."
+        },
+        {
+          "user": "FeatureLover",
+          "rating": 3,
+          "comment": "Basic model but gets the job done. Wish it had more smart features."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Kelvinator 1.5 Ton 5-Star Split AC",
+      "brand": "Kelvinator",
+      "price": 45000,
+      "rating": 4.0,
+      "description": "1.5 Ton capacity, 5-star rating, Copper condenser, turbo cool, voltage variation protection.",
+      "category": "ACs",
+      "image": "https://images.pexels.com/photos/2539462/pexels-photo-2539462.jpeg",
+      "reviews": [
+        {
+          "user": "ValueBuyer",
+          "rating": 4,
+          "comment": "Good performance for the price. 5-star rating helps save on electricity bills."
+        },
+        {
+          "user": "VoltageFluctuation",
+          "rating": 5,
+          "comment": "Handles voltage fluctuations in my area much better than previous ACs I've owned."
+        },
+        {
+          "user": "AfterSales",
+          "rating": 3,
+          "comment": "Product is good but after-sales service could be improved."
+        }
+      ]
+    }
+  ],
+  "Electronics": [
+    {
+      "id": 41,
+      "title": "LG 260L Double-Door Frost Free Refrigerator",
+      "brand": "LG",
+      "price": 35000,
+      "rating": 4.4,
+      "description": "260L capacity, Double door, Frost-free, stabilizer-free, smart inverter compressor, door alarm.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/2343467/pexels-photo-2343467.jpeg",
+      "reviews": [
+        {
+          "user": "FamilyUser",
+          "rating": 5,
+          "comment": "Perfect size for our family of four. The smart inverter saves a lot on electricity."
+        },
+        {
+          "user": "FeatureLover",
+          "rating": 4,
+          "comment": "Love the door alarm feature that beeps if left open. Spacious vegetable crisper."
+        },
+        {
+          "user": "DesignCritic",
+          "rating": 4,
+          "comment": "Sleek design but fingerprint marks are quite visible on the glossy finish."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Samsung 230L Single-Door Refrigerator",
+      "brand": "Samsung",
+      "price": 25000,
+      "rating": 4.2,
+      "description": "230L capacity, Single door, Convertible mode, energy-efficient compressor, spill-proof toughened glass shelves.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/2079698/pexels-photo-2079698.jpeg",
+      "reviews": [
+        {
+          "user": "BachelorUser",
+          "rating": 5,
+          "comment": "Ideal for singles or couples. Convertible feature is great when I need extra freezer space."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Good value for money. Spill-proof shelves are very practical."
+        },
+        {
+          "user": "NoiseSensitive",
+          "rating": 3,
+          "comment": "Works well but compressor is a bit noisy compared to inverter models."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Whirlpool 200L Direct-Cool Refrigerator",
+      "brand": "Whirlpool",
+      "price": 20000,
+      "rating": 4.0,
+      "description": "200L capacity, Single door, Direct-cool, 5-level moisture retention, microblock technology, large vegetable tray.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/4058699/pexels-photo-4058699.jpeg",
+      "reviews": [
+        {
+          "user": "FirstTimeBuyer",
+          "rating": 5,
+          "comment": "Simple and reliable. Vegetables stay fresh longer thanks to the moisture control."
+        },
+        {
+          "user": "SmallHomeUser",
+          "rating": 4,
+          "comment": "Compact yet spacious enough for my small kitchen. Very energy efficient."
+        },
+        {
+          "user": "FeatureLover",
+          "rating": 3,
+          "comment": "Basic model but gets the job done. Needs manual defrosting occasionally."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "LG 7kg Front-Load Washing Machine",
+      "brand": "LG",
+      "price": 30000,
+      "rating": 4.5,
+      "description": "7kg capacity, Front load, 6 motion technology, direct drive motor, 1200 RPM, digital inverter technology.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg",
+      "reviews": [
+        {
+          "user": "LargeFamily",
+          "rating": 5,
+          "comment": "Handles our family's weekly laundry with ease. Very gentle on clothes."
+        },
+        {
+          "user": "WaterSaver",
+          "rating": 5,
+          "comment": "Uses significantly less water than my old top-load machine. Clothes come out cleaner too."
+        },
+        {
+          "user": "NoiseSensitive",
+          "rating": 4,
+          "comment": "Almost silent operation except during spin cycle. Very impressed with the build quality."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "IFB 6kg Front-Load Washing Machine",
+      "brand": "IFB",
+      "price": 25000,
+      "rating": 4.3,
+      "description": "6kg capacity, Front load, Crescent Moon drum, inbuilt heater for water, 900 RPM, anti-allergen program.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg",
+      "reviews": [
+        {
+          "user": "AllergySufferer",
+          "rating": 5,
+          "comment": "The anti-allergen program has made a huge difference for my family's skin allergies."
+        },
+        {
+          "user": "FeatureLover",
+          "rating": 4,
+          "comment": "Inbuilt heater is great for sanitizing clothes. Crescent moon drum prevents fabric damage."
+        },
+        {
+          "user": "CapacityUser",
+          "rating": 3,
+          "comment": "Sometimes wish I had gone for the 7kg model for bulky items like blankets."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Bosch 7kg Inverter Washing Machine",
+      "brand": "Bosch",
+      "price": 35000,
+      "rating": 4.6,
+      "description": "7kg capacity, Front load, EcoSilence Drive, 1200 RPM, 15 wash programs, VarioDrum technology.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg",
+      "reviews": [
+        {
+          "user": "PremiumBuyer",
+          "rating": 5,
+          "comment": "German engineering at its best. The quietest and most efficient washer I've owned."
+        },
+        {
+          "user": "LargeFamily",
+          "rating": 5,
+          "comment": "Handles heavy loads easily. The variodrum cleans well without damaging fabrics."
+        },
+        {
+          "user": "TechLover",
+          "rating": 4,
+          "comment": "15 programs might be overkill but I appreciate the customization options."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Panasonic 20L Convection Microwave Oven",
+      "brand": "Panasonic",
+      "price": 8000,
+      "rating": 4.4,
+      "description": "20L capacity, Convection mode, 1024W heating, LED display, automatic menus, stainless steel cavity.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg",
+      "reviews": [
+        {
+          "user": "BakingEnthusiast",
+          "rating": 5,
+          "comment": "The convection feature lets me bake cakes and cookies perfectly!"
+        },
+        {
+          "user": "SmallKitchen",
+          "rating": 5,
+          "comment": "Compact yet powerful. Reheats, bakes and grills - does everything I need."
+        },
+        {
+          "user": "TechUser",
+          "rating": 4,
+          "comment": "Automatic menus take the guesswork out of cooking different dishes."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "IFB 20L Solo Microwave Oven",
+      "brand": "IFB",
+      "price": 6000,
+      "rating": 4.2,
+      "description": "20L capacity, Solo microwave, 700W, mechanical control, 2-track antenna for uniform heating, child lock.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg",
+      "reviews": [
+        {
+          "user": "StudentUser",
+          "rating": 5,
+          "comment": "Perfect for my hostel room. Heats food evenly and quickly."
+        },
+        {
+          "user": "BudgetBuyer",
+          "rating": 4,
+          "comment": "Simple and reliable. The child lock gives me peace of mind with kids around."
+        },
+        {
+          "user": "FeatureLover",
+          "rating": 3,
+          "comment": "Basic model but gets the job done. Wish it had digital controls."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Havells 2000W Room Heater",
+      "brand": "Havells",
+      "price": 4000,
+      "rating": 4.3,
+      "description": "2000W heat output, PTC heating element, fan operation, tip-over switch, overheat protection.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/3230214/pexels-photo-3230214.jpeg",
+      "reviews": [
+        {
+          "user": "WinterUser",
+          "rating": 5,
+          "comment": "Heats up my medium-sized bedroom in just 5 minutes. Very effective."
+        },
+        {
+          "user": "SafetyConscious",
+          "rating": 5,
+          "comment": "The tip-over switch gives me confidence to use it around my pets."
+        },
+        {
+          "user": "PowerUser",
+          "rating": 3,
+          "comment": "Effective but consumes a lot of electricity at 2000W setting."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Philips 750W Mixer Grinder",
+      "brand": "Philips",
+      "price": 3500,
+      "rating": 4.1,
+      "description": "750W motor, 3 stainless steel jars (liquidizing, multi-purpose, chutney), push-button cover, anti-skid feet.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/3230214/pexels-photo-3230214.jpeg",
+      "reviews": [
+        {
+          "user": "HomeChef",
+          "rating": 5,
+          "comment": "Handles everything from dry spices to smooth batter with ease. Very powerful."
+        },
+        {
+          "user": "NoiseSensitive",
+          "rating": 3,
+          "comment": "Works great but quite loud at full power."
+        },
+        {
+          "user": "DurabilityUser",
+          "rating": 5,
+          "comment": "Had my previous Philips mixer for 8 years. Expecting similar longevity from this one."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Voltas 70L Desert Air Cooler",
+      "brand": "Voltas",
+      "price": 15000,
+      "rating": 4.0,
+      "description": "70L capacity, Desert cooler, honeycomb pads, ice chamber, 3 speed fan, remote control.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/3230214/pexels-photo-3230214.jpeg",
+      "reviews": [
+        {
+          "user": "DryClimateUser",
+          "rating": 5,
+          "comment": "A lifesaver in Rajasthan summers. Cools my large living room effectively."
+        },
+        {
+          "user": "FeatureLover",
+          "rating": 4,
+          "comment": "Remote control is convenient. Honeycomb pads improve cooling efficiency."
+        },
+        {
+          "user": "MaintenanceUser",
+          "rating": 3,
+          "comment": "Works great but requires regular cleaning to prevent algae growth in water."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Bajaj 750W Mixer Grinder",
+      "brand": "Bajaj",
+      "price": 3000,
+      "rating": 3.9,
+      "description": "750W motor, 3 jars (liquidizing, grinding, chutney), stainless steel blades, multi-speed control.",
+      "category": "Electronic Appliances",
+      "image": "https://images.pexels.com/photos/3230214/pexels-photo-3230214.jpeg",
+      "reviews": [
+        {
+          "user": "BudgetBuyer",
+          "rating": 5,
+          "comment": "Unbeatable value for money. Has been working perfectly for 2 years now."
+        },
+        {
+          "user": "SmallFamily",
+          "rating": 4,
+          "comment": "Perfect for everyday grinding needs. Jars are a good size for our family of three."
+        },
+        {
+          "user": "PowerUser",
+          "rating": 3,
+          "comment": "Struggles a bit with very hard spices or large quantities."
+        }
+      ]
+    }
+  ],
+  "Clothing": [
+    {
+      "id": 53,
+      "title": "Levi's Men's 511 Slim Fit Jeans",
+      "brand": "Levi's",
+      "price": 2000,
+      "rating": 4.5,
+      "description": "Slim fit jeans with 5-pocket styling, stretch cotton denim for comfort, zip fly, multiple washes available.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/3768005/pexels-photo-3768005.jpeg",
+      "reviews": [
+        {
+          "user": "DenimLover",
+          "rating": 5,
+          "comment": "Perfect fit right out of the box. The stretch material makes them super comfortable."
+        },
+        {
+          "user": "QualityBuyer",
+          "rating": 5,
+          "comment": "Levi's quality is unmatched. These jeans last for years without fading or tearing."
+        },
+        {
+          "user": "FitCritic",
+          "rating": 4,
+          "comment": "Great jeans but size runs slightly small. Recommend going one size up."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "United Colors of Benetton Men's Polo T-Shirt",
+      "brand": "United Colors of Benetton",
+      "price": 1200,
+      "rating": 4.4,
+      "description": "Classic cotton polo T-shirt, regular fit, ribbed collar, short sleeves, solid colors and stripes.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/1884579/pexels-photo-1884579.jpeg",
+      "reviews": [
+        {
+          "user": "OfficeWearUser",
+          "rating": 5,
+          "comment": "Perfect for business casual. The fabric is soft yet holds its shape well after washes."
+        },
+        {
+          "user": "ColorLover",
+          "rating": 4,
+          "comment": "Vibrant colors that don't fade easily. Collar stays crisp after multiple washes."
+        },
+        {
+          "user": "FitUser",
+          "rating": 4,
+          "comment": "True to size. Regular fit is comfortable without being too loose."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Peter England Men's Formal Shirt",
+      "brand": "Peter England",
+      "price": 1500,
+      "rating": 4.3,
+      "description": "100% cotton formal shirt, regular fit, full sleeves, spread collar, available in solid and checks.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/1020370/pexels-photo-1020370.jpeg",
+      "reviews": [
+        {
+          "user": "CorporateUser",
+          "rating": 5,
+          "comment": "My go-to brand for office shirts. The cotton is breathable and stays crisp all day."
+        },
+        {
+          "user": "ValueBuyer",
+          "rating": 4,
+          "comment": "Excellent quality for the price. Comparable to more expensive brands."
+        },
+        {
+          "user": "FitCritic",
+          "rating": 3,
+          "comment": "Sleeves are slightly long for my height. Otherwise great shirt."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Puma Men's Round-Neck T-Shirt",
+      "brand": "Puma",
+      "price": 800,
+      "rating": 4.2,
+      "description": "Casual round-neck T-shirt, 100% cotton, quick-dry fabric, printed logo on front, available in multiple colors.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/3489129/pexels-photo-3489129.jpeg",
+      "reviews": [
+        {
+          "user": "CasualWearUser",
+          "rating": 5,
+          "comment": "Super comfortable for everyday wear. Washes well without shrinking."
+        },
+        {
+          "user": "GymUser",
+          "rating": 4,
+          "comment": "Great for workouts too. The quick-dry fabric wicks sweat effectively."
+        },
+        {
+          "user": "DesignLover",
+          "rating": 4,
+          "comment": "Subtle branding looks stylish without being too flashy."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Allen Solly Men's Slim Fit Chinos",
+      "brand": "Allen Solly",
+      "price": 1800,
+      "rating": 4.1,
+      "description": "Slim-fit chinos with stretch cotton blend, mid-rise waist, five-pocket design, formal and casual wear.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/1233648/pexels-photo-1233648.jpeg",
+      "reviews": [
+        {
+          "user": "OfficeGoer",
+          "rating": 5,
+          "comment": "Perfect for business casual Fridays. The stretch fabric makes them very comfortable."
+        },
+        {
+          "user": "FitUser",
+          "rating": 4,
+          "comment": "True to size slim fit - not too tight but still looks tailored."
+        },
+        {
+          "user": "ColorUser",
+          "rating": 4,
+          "comment": "Colors are exactly as shown online. Goes well with both formal and casual tops."
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "W Women's Printed Kurta",
+      "brand": "W",
+      "price": 1200,
+      "rating": 4.2,
+      "description": "Cotton printed straight Kurta, round neck, 3/4 sleeves, ethnic block print design, knee-length.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/3812433/pexels-photo-3812433.jpeg",
+      "reviews": [
+        {
+          "user": "EthnicWearLover",
+          "rating": 5,
+          "comment": "Beautiful prints and very comfortable cotton fabric. Perfect for Indian summers."
+        },
+        {
+          "user": "OfficeWearUser",
+          "rating": 4,
+          "comment": "Great for casual office wear. The length is just right - not too short or long."
+        },
+        {
+          "user": "ValueBuyer",
+          "rating": 4,
+          "comment": "Good quality for the price. The stitching has held up well after multiple washes."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Aurelia Women's Embroidered Kurta",
+      "brand": "Aurelia",
+      "price": 1500,
+      "rating": 4.3,
+      "description": "Cotton embroidered A-line Kurta, V-neck, full sleeves, intricate embroidery on front panel.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/1488467/pexels-photo-1488467.jpeg",
+      "reviews": [
+        {
+          "user": "WeddingGuest",
+          "rating": 5,
+          "comment": "Got so many compliments at the wedding! The embroidery is exquisite."
+        },
+        {
+          "user": "FitUser",
+          "rating": 4,
+          "comment": "A-line cut is flattering for all body types. The fabric drapes beautifully."
+        },
+        {
+          "user": "QualityBuyer",
+          "rating": 5,
+          "comment": "The embroidery is very well done with no loose threads. Worth the price."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "title": "AND Women's Solid A-line Dress",
+      "brand": "AND",
+      "price": 1800,
+      "rating": 4.4,
+      "description": "Polyester A-line dress, round neck, half sleeves, knee-length, solid color for casual wear.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg",
+      "reviews": [
+        {
+          "user": "OfficeWearUser",
+          "rating": 5,
+          "comment": "My go-to office dress. Looks professional and is very comfortable for all-day wear."
+        },
+        {
+          "user": "TravelUser",
+          "rating": 4,
+          "comment": "Wrinkle-resistant fabric makes it perfect for travel. Dries quickly too."
+        },
+        {
+          "user": "FitUser",
+          "rating": 4,
+          "comment": "True to size. A-line silhouette is flattering without being too tight."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "title": "Calvin Klein Women's Skinny Jeans",
+      "brand": "Calvin Klein",
+      "price": 2500,
+      "rating": 4.5,
+      "description": "Skinny fit stretch denim jeans, mid-rise, five-pocket style, zip fly, classic blue wash.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg",
+      "reviews": [
+        {
+          "user": "DenimLover",
+          "rating": 5,
+          "comment": "Perfect skinny fit - not too tight but still looks sleek. The stretch is very comfortable."
+        },
+        {
+          "user": "QualityBuyer",
+          "rating": 5,
+          "comment": "CK jeans last forever without losing shape or color. Worth the investment."
+        },
+        {
+          "user": "FitUser",
+          "rating": 4,
+          "comment": "Runs slightly small. Recommend sizing up if between sizes."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Jack & Jones Men's Hoodie",
+      "brand": "Jack & Jones",
+      "price": 1200,
+      "rating": 4.2,
+      "description": "Cotton pullover hoodie, slim fit, kangaroo pocket, drawstring hood, ribbed cuffs and hem.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/3965551/pexels-photo-3965551.jpeg",
+      "reviews": [
+        {
+          "user": "CasualWearUser",
+          "rating": 5,
+          "comment": "My favorite hoodie! The slim fit looks much better than baggy hoodies."
+        },
+        {
+          "user": "WinterUser",
+          "rating": 4,
+          "comment": "Keeps me warm without being too thick. Perfect for mild winters."
+        },
+        {
+          "user": "QualityUser",
+          "rating": 4,
+          "comment": "Holding up well after multiple washes. No pilling or fading yet."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "title": "H&M Women's Floral Print Dress",
+      "brand": "H&M",
+      "price": 1500,
+      "rating": 4.3,
+      "description": "Chiffon floral print maxi dress, V-neck, spaghetti straps, flowy silhouette, lined inner.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/3735641/pexels-photo-3735641.jpeg",
+      "reviews": [
+        {
+          "user": "SummerDressLover",
+          "rating": 5,
+          "comment": "Perfect summer dress! Lightweight and breezy. The lining prevents see-through issues."
+        },
+        {
+          "user": "WeddingGuest",
+          "rating": 4,
+          "comment": "Got many compliments at the outdoor wedding. The floral print is beautiful."
+        },
+        {
+          "user": "FitUser",
+          "rating": 4,
+          "comment": "True to size. The flowy cut is flattering for all body types."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Adidas Women's Track Pants",
+      "brand": "Adidas",
+      "price": 2000,
+      "rating": 4.1,
+      "description": "Polyester track pants, slim fit, elastic waistband with drawstring, side pockets, trademark 3-stripes.",
+      "category": "Clothing",
+      "image": "https://images.pexels.com/photos/3965548/pexels-photo-3965548.jpeg",
+      "reviews": [
+        {
+          "user": "GymUser",
+          "rating": 5,
+          "comment": "Perfect for workouts and running. The material wicks sweat away effectively."
+        },
+        {
+          "user": "CasualWearUser",
+          "rating": 4,
+          "comment": "Great for athleisure wear too. Looks stylish with sneakers and a crop top."
+        },
+        {
+          "user": "FitUser",
+          "rating": 4,
+          "comment": "Slim fit is flattering without restricting movement. True to size."
+        }
+      ]
+    }
+  ]
+}

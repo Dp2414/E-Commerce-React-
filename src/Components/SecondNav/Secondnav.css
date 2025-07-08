@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 10px;
+   
+   
+   
+}
+.navbarnav{
+    background-color: #232f3e;
+    padding: 0;
+}
+ul>li{
+    list-style: none;
+    
+}
+
+.li>a{
+    text-decoration: none;
+    color: white;
+}
+.li>a:hover{
+    text-decoration: underline;
+}

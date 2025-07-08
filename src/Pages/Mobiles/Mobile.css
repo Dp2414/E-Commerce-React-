@@ -1,0 +1,9 @@
+.sidecheckbox{
+    display: flex;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}

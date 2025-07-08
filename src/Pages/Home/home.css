@@ -1,0 +1,79 @@
+.landinglaptop {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+gap: 10px;
+  justify-content: center;
+  background-color: white;
+  padding-top: 20px;
+}
+
+.landingmobile{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  gap: 10px;
+    justify-content: center;
+    background-color: white;
+    padding-top: 20px;
+}
+.landingtv{
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+gap: 10px;
+  justify-content: center;
+  background-color: white;
+  padding-top: 20px;
+}
+.landingac{
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+gap: 10px;
+  justify-content: center;
+  background-color: white;
+  padding-top: 20px;
+}
+.landingcloth{
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+gap: 10px;
+  justify-content: center;
+  background-color: white;
+  padding-top: 20px;
+
+}
+
+.landingele{
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+gap: 10px;
+  justify-content: center;
+  background-color: white;
+  padding-top: 20px;
+}
+.card{
+    border: none;
+}
+.category{
+    text-decoration:dashed;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.bgc{
+    background-color: #e3e6e6;
+}
+h2{
+    margin-top: 20px;
+}
