@@ -23,17 +23,39 @@ justify-content: space-between;
 .basketcard{
   display: flex;
   flex-direction: row;
+
+ gap: 30px;
 }
-/* .cardbody{
+.cardbody{
   width: 100%;
-} */
+}
 
 .column{
   width: 70%;
 }
 
 .basketimages{
-  width:40%;
+  width:50%;
   object-fit: cover;
   height: 300px;
+}
+.billingandcart{
+ justify-content: space-between;
+
+}
+.cartitems{
+  width: 90%;
+}
+.maincart{
+  display: flex;
+  gap: 20px;
+  width: 70%;
+   justify-content: space-between;
+}
+.billing{
+  width: 200px;
+ 
+}
+.cardbody{
+  width: 100%;
 }

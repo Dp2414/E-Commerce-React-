@@ -236,12 +236,12 @@ import "./basket.css";
 function SaveForLater({ savelater, setSavelater, setCartItems }) {
   const { setCount } = useContext(CartContext);
 
-  // ✅ Load saved items if empty
+ 
   useEffect(() => {
-    if (savelater.length === 0) {
+
       const saved = JSON.parse(localStorage.getItem("savedForLater")) || [];
       setSavelater(saved);
-    }
+    
   }, []);
 
   const moveToCart = (item) => {

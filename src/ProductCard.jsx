@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const ProductCard = ({ product, count, setCount }) => {
+const ProductCard = ({ product, count, setCount, category }) => {
   const [qty, setQty] = useState(0);
 
   // Load quantity from localStorage
@@ -40,13 +40,13 @@ const ProductCard = ({ product, count, setCount }) => {
   return (
     <div className="card" style={{ width: "18rem", margin: "1rem" }}>
       <Link
-        to={`/Mobiles/${product.id}`}
+        to={`/${category}/${product.id}`}
         style={{ textDecoration: "none", color: "inherit" }}
       >
         <img
           src={product.image}
           alt={product.title}
-          style={{ height: "200px", objectFit: "cover" }}
+          style={{ height: "200px", objectFit: "cover",width:"100%" }}
         />
         <div className="card-body">
           <h5>{product.title}</h5>

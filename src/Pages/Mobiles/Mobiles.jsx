@@ -249,6 +249,7 @@ import axios from "axios";
 import "./Mobile.css";
 import { CartContext } from "../../Context/Context";
 import ProductCard from "../../ProductCard";
+import Laptop from "../Laptop/Laptop";
 
 const Mobiles = () => {
   const { count, setCount } = useContext(CartContext);
@@ -303,21 +304,25 @@ const Mobiles = () => {
   };
 
   return (
-    <div
-      style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
-    >
-      {mobiles.map((mobile) => (
-        <ProductCard
-          key={mobile.id}
-          product={mobile}
-          count={count}
-          setCount={setCount}
-          increase={increase}
-          decrease={decrease}
-          delitem={delitem}
-        />
-      ))}
-    </div>
+    <>
+      <div
+        style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+      >
+        {mobiles.map((mobile) => (
+          <ProductCard
+            key={mobile.id}
+            product={mobile}
+            count={count}
+            setCount={setCount}
+            increase={increase}
+            decrease={decrease}
+            delitem={delitem}
+            category="Mobiles"
+          />
+        ))}
+       
+      </div>
+    </>
   );
 };
 

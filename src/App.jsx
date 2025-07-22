@@ -1,6 +1,5 @@
 // ------------------main-------------------------
 
-
 // import React, { useEffect, useState } from 'react'
 // import Navbar from './Components/Navbar/Navbar'
 // import "bootstrap-icons/font/bootstrap-icons.css";
@@ -17,7 +16,7 @@
 // import Clothing from './Pages/Clothing/Clothing';
 // // import Apis from './Custom Hooks/Apis/Apis';
 // const App = () => {
-  
+
 //   const [count, setCount] = useState(() => {
 //     const saved = localStorage.getItem("cartCount");
 //     return saved ? parseInt(saved) : 0;
@@ -115,7 +114,7 @@
 //     setCartItems(updated);
 //     setCartItems([...cartItems, product]);
 //     setCount(count - 1);
-    
+
 //   };
 
 //   const isInCart = (id) => {
@@ -145,7 +144,6 @@
 // };
 
 // export default App;
-
 
 // import React, { useEffect, useState } from "react";
 // import Navbar from "./Components/Navbar/Navbar";
@@ -215,10 +213,6 @@
 
 // export default App;
 
-
-
-
-
 import React, { useEffect, useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -239,6 +233,11 @@ import Login from "./Pages/Login";
 import Practice from "./Practice";
 import Access from "./Pages/Access";
 import MobileDetails from "./Pages/Mobiles/MobileDetails";
+import LaptopDetails from "./Pages/Laptop/LaptopDetails";
+import ElectronicsDetails from "./Pages/Electronics/ElectronicsDetails";
+import ClothingDetails from "./Pages/Clothing/ClothingDetails";
+import AcDetails from './Pages/AC/AcDetails'
+import TvDetails from "./Pages/TVs/TvDetails";
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -249,17 +248,13 @@ const App = () => {
     setCartItems(cart);
   }, []);
 
-
-
-
   return (
     <BrowserRouter>
+      {/* <Routes></Routes> */}
+
       <Routes>
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-      </Routes>
-
-      <Routes>
         <Route
           path="/"
           element={
@@ -270,12 +265,13 @@ const App = () => {
             </Access>
           }
         />
+
         <Route
           path="/Mobiles"
           element={
             <>
               <Navbar />
-              <Secondnav /> <Mobiles />{" "}
+              <Secondnav /> <Mobiles />
             </>
           }
         />
@@ -292,9 +288,20 @@ const App = () => {
           path="/Laptops"
           element={
             <>
-              {" "}
+              
               <Navbar />
               <Secondnav /> <Laptop />
+            </>
+          }
+        />
+        <Route
+          path="/Laptops/:id"
+          element={
+            <>
+             
+              <Navbar />
+              <Secondnav />
+              <LaptopDetails />
             </>
           }
         />
@@ -302,9 +309,19 @@ const App = () => {
           path="/TVs"
           element={
             <>
-              {" "}
+             
               <Navbar />
               <Secondnav /> <TVs />
+            </>
+          }
+        />
+        <Route
+          path="/TVs/:id"
+          element={
+            <>
+              
+              <Navbar />
+              <Secondnav /> <TvDetails />
             </>
           }
         />
@@ -314,7 +331,17 @@ const App = () => {
             <>
               <Navbar />
               <Secondnav />
-              <AC />{" "}
+              <AC />
+            </>
+          }
+        />
+        <Route
+          path="/ACs/:id"
+          element={
+            <>
+              <Navbar />
+              <Secondnav />
+              <AcDetails />
             </>
           }
         />
@@ -324,7 +351,17 @@ const App = () => {
             <>
               <Navbar />
               <Secondnav />
-              <Ele />{" "}
+              <Ele />
+            </>
+          }
+        />
+        <Route
+          path="/Electronics/:id"
+          element={
+            <>
+              <Navbar />
+              <Secondnav />
+              <ElectronicsDetails />
             </>
           }
         />
@@ -334,7 +371,17 @@ const App = () => {
             <>
               <Navbar />
               <Secondnav />
-              <Clothing />{" "}
+              <Clothing />
+            </>
+          }
+        />
+        <Route
+          path="/Clothing/:id"
+          element={
+            <>
+              <Navbar />
+              <Secondnav />
+              <ClothingDetails />
             </>
           }
         />
@@ -344,7 +391,7 @@ const App = () => {
             <>
               <Navbar />
               <Secondnav />
-              <Basket cartItems={cartItems} setCartItems={setCartItems} />{" "}
+              <Basket cartItems={cartItems} setCartItems={setCartItems} />
             </>
           }
         />
@@ -352,14 +399,14 @@ const App = () => {
           path="/saved"
           element={
             <>
-              {" "}
+              
               <Navbar />
-              <Secondnav />{" "}
+              <Secondnav />
               <SaveForLater
                 savelater={savelater}
                 setSavelater={setSavelater}
                 setCartItems={setCartItems}
-              />{" "}
+              />
             </>
           }
         />

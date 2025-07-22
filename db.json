@@ -24,8 +24,24 @@
           "user": "SamFan",
           "rating": 5,
           "comment": "Worth every penny! The display is breathtaking and performance is flawless."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     },
     {
       "id": 2,
@@ -51,8 +67,19 @@
           "user": "TechCritic",
           "rating": 4,
           "comment": "Excellent build quality but the price hike is hard to justify."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     },
     {
       "id": 3,
@@ -78,8 +105,24 @@
           "user": "CameraExpert",
           "rating": 4,
           "comment": "Great camera performance for the price, though low light could be better."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 4,
@@ -105,8 +148,24 @@
           "user": "TechReviewer",
           "rating": 4,
           "comment": "Best point-and-shoot camera on any smartphone right now."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 5,
@@ -132,8 +191,19 @@
           "user": "CameraLover",
           "rating": 4,
           "comment": "Surprisingly good camera performance for the price range."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     },
     {
       "id": 6,
@@ -159,8 +229,19 @@
           "user": "DesignLover",
           "rating": 5,
           "comment": "The color-changing back panel is so unique and beautiful!"
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 7,
@@ -186,8 +267,19 @@
           "user": "CameraCritic",
           "rating": 3,
           "comment": "Good camera hardware but software processing is too aggressive."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 8,
@@ -213,8 +305,24 @@
           "user": "UIExpert",
           "rating": 3,
           "comment": "Hardware is excellent but realme UI needs more polish."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     },
     {
       "id": 9,
@@ -240,15 +348,26 @@
           "user": "BatteryCritic",
           "rating": 3,
           "comment": "Battery life is decent but charging speed should be faster in 2023."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-15"
     },
     {
       "id": 10,
       "title": "Motorola Edge 40 Neo (6GB, 128GB)",
       "brand": "Motorola",
       "price": 35000,
-      "rating": 4.0,
+      "rating": 4,
       "description": "6.55-inch pOLED display, MediaTek Dimensity 7030, 50MP dual camera, 4400mAh battery, 68W fast charging.",
       "category": "Mobiles",
       "image": "https://images.pexels.com/photos/1786433/pexels-photo-1786433.jpeg",
@@ -267,8 +386,24 @@
           "user": "PerformanceUser",
           "rating": 3,
           "comment": "Good for daily use but not the best for heavy gaming."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     }
   ],
   "Laptops": [
@@ -296,8 +431,24 @@
           "user": "TechCritic",
           "rating": 4,
           "comment": "Amazing machine but 8GB RAM might be limiting for power users."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-13"
     },
     {
       "id": 12,
@@ -323,8 +474,19 @@
           "user": "TechEnthusiast",
           "rating": 4,
           "comment": "Great performance but tends to get warm under heavy load."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     },
     {
       "id": 13,
@@ -350,8 +512,24 @@
           "user": "AudioUser",
           "rating": 3,
           "comment": "Speakers could be better. Performance is good for the price though."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-12"
     },
     {
       "id": 14,
@@ -377,8 +555,19 @@
           "user": "PortabilityUser",
           "rating": 3,
           "comment": "Performance is excellent but it's quite heavy to carry around."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-12"
     },
     {
       "id": 15,
@@ -404,8 +593,19 @@
           "user": "DesignCritic",
           "rating": 4,
           "comment": "Almost perfect, but the lack of webcam is disappointing in 2023."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-15"
     },
     {
       "id": 16,
@@ -431,8 +631,24 @@
           "user": "Multitasker",
           "rating": 3,
           "comment": "8GB RAM feels limiting when having many browser tabs open."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-12"
     },
     {
       "id": 17,
@@ -458,15 +674,26 @@
           "user": "BatteryCritic",
           "rating": 3,
           "comment": "Beautiful screen but battery life suffers because of it."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     },
     {
       "id": 18,
       "title": "Lenovo IdeaPad Slim 3 (Core i3, 8GB, 256GB)",
       "brand": "Lenovo",
       "price": 40000,
-      "rating": 4.0,
+      "rating": 4,
       "description": "15.6-inch HD display, Intel Core i3 11th Gen, 8GB RAM, 256GB SSD, fingerprint reader.",
       "category": "Laptops",
       "image": "https://images.pexels.com/photos/2041637/pexels-photo-2041637.jpeg",
@@ -485,8 +712,19 @@
           "user": "FirstTimeUser",
           "rating": 4,
           "comment": "Perfect for my needs - browsing, emails and document work."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 19,
@@ -512,8 +750,24 @@
           "user": "PriceConscious",
           "rating": 4,
           "comment": "Absolutely amazing but very expensive. Only worth it if you really need the power."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-13"
     },
     {
       "id": 20,
@@ -539,8 +793,24 @@
           "user": "UpgradeUser",
           "rating": 3,
           "comment": "RAM is soldered so can't be upgraded later. Should have gone for 16GB model."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-13"
     }
   ],
   "TVs": [
@@ -840,8 +1110,24 @@
           "user": "InstallationUser",
           "rating": 4,
           "comment": "Great performance but installation took longer than expected."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 32,
@@ -867,8 +1153,24 @@
           "user": "PowerUser",
           "rating": 3,
           "comment": "Good for moderate climates but struggles a bit in extreme heat waves."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 33,
@@ -894,8 +1196,19 @@
           "user": "PriceConscious",
           "rating": 4,
           "comment": "Expensive but worth it for the quality and efficiency."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 34,
@@ -921,8 +1234,24 @@
           "user": "CoastalUser",
           "rating": 5,
           "comment": "Bluefin technology is perfect for coastal areas - no corrosion issues."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-15"
     },
     {
       "id": 35,
@@ -948,8 +1277,19 @@
           "user": "AutoModeUser",
           "rating": 4,
           "comment": "Auto climate technology maintains perfect temperature without manual adjustments."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-15"
     },
     {
       "id": 36,
@@ -975,8 +1315,19 @@
           "user": "PowerUser",
           "rating": 3,
           "comment": "Adequate for small rooms but struggles in larger spaces or extreme heat."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-13"
     },
     {
       "id": 37,
@@ -1002,8 +1353,19 @@
           "user": "InstallationUser",
           "rating": 3,
           "comment": "Great performance but installation crew wasn't very professional."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-13"
     },
     {
       "id": 38,
@@ -1029,8 +1391,19 @@
           "user": "TechLover",
           "rating": 4,
           "comment": "Coanda airflow technology prevents direct cold air blast - very comfortable."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 39,
@@ -1056,15 +1429,31 @@
           "user": "FeatureLover",
           "rating": 3,
           "comment": "Basic model but gets the job done. Wish it had more smart features."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-15"
     },
     {
       "id": 40,
       "title": "Kelvinator 1.5 Ton 5-Star Split AC",
       "brand": "Kelvinator",
       "price": 45000,
-      "rating": 4.0,
+      "rating": 4,
       "description": "1.5 Ton capacity, 5-star rating, Copper condenser, turbo cool, voltage variation protection.",
       "category": "ACs",
       "image": "https://images.pexels.com/photos/2539462/pexels-photo-2539462.jpeg",
@@ -1083,8 +1472,24 @@
           "user": "AfterSales",
           "rating": 3,
           "comment": "Product is good but after-sales service could be improved."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     }
   ],
   "Electronics": [
@@ -1112,8 +1517,19 @@
           "user": "DesignCritic",
           "rating": 4,
           "comment": "Sleek design but fingerprint marks are quite visible on the glossy finish."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-15"
     },
     {
       "id": 42,
@@ -1139,15 +1555,31 @@
           "user": "NoiseSensitive",
           "rating": 3,
           "comment": "Works well but compressor is a bit noisy compared to inverter models."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-13"
     },
     {
       "id": 43,
       "title": "Whirlpool 200L Direct-Cool Refrigerator",
       "brand": "Whirlpool",
       "price": 20000,
-      "rating": 4.0,
+      "rating": 4,
       "description": "200L capacity, Single door, Direct-cool, 5-level moisture retention, microblock technology, large vegetable tray.",
       "category": "Electronic Appliances",
       "image": "https://images.pexels.com/photos/4058699/pexels-photo-4058699.jpeg",
@@ -1166,8 +1598,24 @@
           "user": "FeatureLover",
           "rating": 3,
           "comment": "Basic model but gets the job done. Needs manual defrosting occasionally."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     },
     {
       "id": 44,
@@ -1193,8 +1641,24 @@
           "user": "NoiseSensitive",
           "rating": 4,
           "comment": "Almost silent operation except during spin cycle. Very impressed with the build quality."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-12"
     },
     {
       "id": 45,
@@ -1220,8 +1684,19 @@
           "user": "CapacityUser",
           "rating": 3,
           "comment": "Sometimes wish I had gone for the 7kg model for bulky items like blankets."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-15"
     },
     {
       "id": 46,
@@ -1247,8 +1722,19 @@
           "user": "TechLover",
           "rating": 4,
           "comment": "15 programs might be overkill but I appreciate the customization options."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     },
     {
       "id": 47,
@@ -1274,8 +1760,19 @@
           "user": "TechUser",
           "rating": 4,
           "comment": "Automatic menus take the guesswork out of cooking different dishes."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-15"
     },
     {
       "id": 48,
@@ -1301,8 +1798,19 @@
           "user": "FeatureLover",
           "rating": 3,
           "comment": "Basic model but gets the job done. Wish it had digital controls."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-15"
     },
     {
       "id": 49,
@@ -1328,8 +1836,24 @@
           "user": "PowerUser",
           "rating": 3,
           "comment": "Effective but consumes a lot of electricity at 2000W setting."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-12"
     },
     {
       "id": 50,
@@ -1355,15 +1879,26 @@
           "user": "DurabilityUser",
           "rating": 5,
           "comment": "Had my previous Philips mixer for 8 years. Expecting similar longevity from this one."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-13"
     },
     {
       "id": 51,
       "title": "Voltas 70L Desert Air Cooler",
       "brand": "Voltas",
       "price": 15000,
-      "rating": 4.0,
+      "rating": 4,
       "description": "70L capacity, Desert cooler, honeycomb pads, ice chamber, 3 speed fan, remote control.",
       "category": "Electronic Appliances",
       "image": "https://images.pexels.com/photos/3230214/pexels-photo-3230214.jpeg",
@@ -1382,8 +1917,24 @@
           "user": "MaintenanceUser",
           "rating": 3,
           "comment": "Works great but requires regular cleaning to prevent algae growth in water."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     },
     {
       "id": 52,
@@ -1409,8 +1960,19 @@
           "user": "PowerUser",
           "rating": 3,
           "comment": "Struggles a bit with very hard spices or large quantities."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     }
   ],
   "Clothing": [
@@ -1438,8 +2000,24 @@
           "user": "FitCritic",
           "rating": 4,
           "comment": "Great jeans but size runs slightly small. Recommend going one size up."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 54,
@@ -1465,8 +2043,19 @@
           "user": "FitUser",
           "rating": 4,
           "comment": "True to size. Regular fit is comfortable without being too loose."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 55,
@@ -1492,8 +2081,19 @@
           "user": "FitCritic",
           "rating": 3,
           "comment": "Sleeves are slightly long for my height. Otherwise great shirt."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 56,
@@ -1519,8 +2119,19 @@
           "user": "DesignLover",
           "rating": 4,
           "comment": "Subtle branding looks stylish without being too flashy."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     },
     {
       "id": 57,
@@ -1546,8 +2157,24 @@
           "user": "ColorUser",
           "rating": 4,
           "comment": "Colors are exactly as shown online. Goes well with both formal and casual tops."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-15"
     },
     {
       "id": 58,
@@ -1573,8 +2200,24 @@
           "user": "ValueBuyer",
           "rating": 4,
           "comment": "Good quality for the price. The stitching has held up well after multiple washes."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-15"
     },
     {
       "id": 59,
@@ -1600,8 +2243,19 @@
           "user": "QualityBuyer",
           "rating": 5,
           "comment": "The embroidery is very well done with no loose threads. Worth the price."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     },
     {
       "id": 60,
@@ -1627,8 +2281,24 @@
           "user": "FitUser",
           "rating": 4,
           "comment": "True to size. A-line silhouette is flattering without being too tight."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-13"
     },
     {
       "id": 61,
@@ -1654,8 +2324,19 @@
           "user": "FitUser",
           "rating": 4,
           "comment": "Runs slightly small. Recommend sizing up if between sizes."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-12"
     },
     {
       "id": 62,
@@ -1681,8 +2362,24 @@
           "user": "QualityUser",
           "rating": 4,
           "comment": "Holding up well after multiple washes. No pilling or fading yet."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-14"
     },
     {
       "id": 63,
@@ -1708,8 +2405,19 @@
           "user": "FitUser",
           "rating": 4,
           "comment": "True to size. The flowy cut is flattering for all body types."
+        },
+        {
+          "user": "Critic1",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     },
     {
       "id": 64,
@@ -1735,8 +2443,24 @@
           "user": "FitUser",
           "rating": 4,
           "comment": "Slim fit is flattering without restricting movement. True to size."
+        },
+        {
+          "user": "Critic1",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic2",
+          "rating": 1,
+          "comment": "Not satisfied — build quality or support let me down."
+        },
+        {
+          "user": "Critic3",
+          "rating": 2,
+          "comment": "Not satisfied — build quality or support let me down."
         }
-      ]
+      ],
+      "expectedDelivery": "2025-07-11"
     }
   ]
 }

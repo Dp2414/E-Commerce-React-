@@ -64,12 +64,37 @@ const AC = () => {
   useEffect(() => {
     jsonac();
   }, []);
+  const increase = () => {
+    const newQty = qty + 1;
+    setQty(newQty);
+    updateCart(newQty);
+  };
+
+  const decrease = () => {
+    const newQty = qty - 1;
+    setQty(newQty);
+    updateCart(newQty);
+  };
+
+  const delitem = () => {
+    setQty(0);
+    updateCart(0);
+  };
   return (
     <div
       style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
     >
       {ac.map((AC) => (
-        <ProductCard key={AC.id} product={AC} count={count} setCount={setCount} />
+        <ProductCard
+          key={AC.id}
+          product={AC}
+          count={count}
+          setCount={setCount}
+          increase={increase}
+          decrease={decrease}
+          delitem={delitem}
+          category="Acs"
+        />
       ))}
     </div>
   );

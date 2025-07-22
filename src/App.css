@@ -1,0 +1,13 @@
+.details{
+    display: flex;
+    align-items: center;
+align-content: center;
+    gap:100px;
+}
+.description{
+    width: 100%
+}
+/* .wholediv{
+    margin:250px  auto; 
+    
+} */

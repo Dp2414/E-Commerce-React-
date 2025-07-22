@@ -10,13 +10,22 @@ import Banner from "../../Components/Banner/Banner";
 import EleCard from "./EleCard";
 import ACCard from "./ACCard";
 import ClothingCard from "./ClothingCard";
+import Mobiles from "../Mobiles/Mobiles";
+import Laptop from "../Laptop/Laptop";
+import TVs from "../TVs/TVs";
+import AC from "../AC/AC";
+import Ele from "../Electronics/Ele"
+import Clothing from "../Clothing/Clothing";
+import Alldetails from "../../Alldetails";
 const Home = (props) => {
   const [mobile, setData] = useState([]);
   const [laptop, setLaptop] = useState([]);
   const [Tv, setTv] = useState([]);
   const [Ac, setAc] = useState([]);
-  const [Ele, setEle] = useState([]);
-  const[Cloth, setCloth] = useState([]);
+  const [Elee, setEle] = useState([]);
+  const [Cloth, setCloth] = useState([]);
+  const [activePage, setActivePage] = useState("Mobiles");
+
   
 
 
@@ -93,6 +102,31 @@ const Home = (props) => {
   useEffect(() => {
     server();
   }, []);
+    const updateCart = (newQty) => {
+      let cart = JSON.parse(localStorage.getItem("products")) || [];
+
+      if (newQty <= 0) {
+        cart = cart.filter((item) => item.id !== product.id);
+      } else {
+        const exists = cart.find((item) => item.id === product.id);
+        if (exists) {
+          cart = cart.map((item) =>
+            item.id === product.id ? { ...item, quantity: newQty } : item
+          );
+        } else {
+          cart.push({ ...product, quantity: newQty });
+        }
+      }
+
+      localStorage.setItem("products", JSON.stringify(cart));
+      setQty(newQty);
+      setCount(cart.reduce((total, item) => total + item.quantity, 0));
+    };
+
+    const increase = () => updateCart(qty + 1);
+    const decrease = () => updateCart(qty - 1);
+    const delitem = () => updateCart(0);
+
 
   // let displaymobiles =db.Mobiles.slice(0, 4);
   // let displaylaptops = db.Laptops.slice(0, 4);
@@ -146,7 +180,7 @@ const Home = (props) => {
 
         <Link to="/Electronics" className="category my-4">
           <div className="landingele">
-            {Ele.map((Ele) => (
+            {Elee.map((Ele) => (
               <EleCard
                 key={Ele.id}
                 Ele={Ele}
@@ -172,6 +206,31 @@ const Home = (props) => {
           <h2>Clothing</h2>
         </Link>
       </div>
+      {/* <div className="forpagination">
+        {activePage === "Mobiles" && <Mobiles />}
+        {activePage === "Laptop" && <Laptop />}
+        {activePage === "TVs" && <TVs />}
+        {activePage === "AC" && <AC />}
+        {activePage === "Ele" && <Ele />}
+        {activePage === "Clothing" && <Clothing />}
+      </div>
+
+      <div className="pagination-buttons">
+        <button onClick={() => setActivePage("Mobiles")}>Mobiles</button>
+        <button onClick={() => setActivePage("Laptop")}>Laptops</button>
+        <button onClick={() => setActivePage("TVs")}>TVs</button>
+        <button onClick={() => setActivePage("AC")}>ACs</button>
+        <button onClick={() => setActivePage("Ele")}>Electronics</button>
+        <button onClick={() => setActivePage("Clothing")}>Clothing</button>
+      </div> */}
+      <Alldetails
+        count={count}
+        setCount={setCount}
+        increase={increase}
+        decrease={decrease}
+        delitem={delitem}
+      />
+
       <button onClick={mg}>{test}Tetsing</button>
     </div>
   );

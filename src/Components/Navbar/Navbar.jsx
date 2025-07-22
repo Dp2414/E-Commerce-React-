@@ -1,10 +1,11 @@
 import React, { useContext } from 'react'
 import './Navbar.css'
+import { useNavigate } from "react-router-dom";
 import Dropdown from './Dropdown';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../../Context/Context';
 const Navbar = () => {
-
+  const navigate = useNavigate();
    const { count, setCount } = useContext(CartContext); 
   return (
     <nav className="navbar navone navbar-expand-lg ">
@@ -98,6 +99,28 @@ const Navbar = () => {
                 <i className="bi bi-search"></i>
               </button>
             </form>
+            {/* <form
+              className="d-flex searchform"
+              role="search"
+              onSubmit={(e) => {
+                e.preventDefault();
+                const searchValue = e.target.elements.search.value.trim();
+                if (searchValue) {
+                  navigate(`/search?q=${encodeURIComponent(searchValue)}`);
+                }
+              }}
+            >
+              <input
+                className="search"
+                type="search"
+                name="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button className="searchbtn" type="submit">
+                <i className="bi bi-search"></i>
+              </button>
+            </form> */}
 
             <li className="nav-item ok dropdown padding">
               <a
@@ -110,11 +133,11 @@ const Navbar = () => {
                 <p className="p-0 m-0 userhello">Hello,User</p>
                 <span className="userlists">Account & Lists</span>
               </a>
-              <Dropdown count={count} setCount={setCount}  />
+              <Dropdown count={count} setCount={setCount} />
             </li>
             <li className="nav-item returnorders ">
               <a className="nav-link padding" href="#">
-                <p className="p-0 m-0">Return </p>& Orders
+                <p className="p-0 my-2">Placed Orders</p>
               </a>
             </li>
             <li className="nav-item navcart ">
