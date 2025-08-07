@@ -13,11 +13,11 @@ const Ele = () => {
   const [electronics, setEle] = useState([]);
 
   async function jsonele() {
-    let response = await axios.get("http://localhost:8000/Electronics");
     try {
-      setEle(response.data);
+      let response = await axios.get("/data.json");
+      setEle(response.data.Electronics);
     } catch (err) {
-      console.error("❌ Error fetching mobiles:", err);
+      console.error("❌ Error fetching Electronics:", err);
     }
   }
 

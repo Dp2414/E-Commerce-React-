@@ -27,24 +27,15 @@ const Alldetails = ({ onDataFetched}) => {
       try {
         setLoading(true);
 
-        const mobiles = await fetch("http://localhost:8000/Mobiles").then(
-          (res) => res.json()
-        );
-        const laptops = await fetch("http://localhost:8000/Laptops").then(
-          (res) => res.json()
-        );
-        const tvs = await fetch("http://localhost:8000/TVs").then((res) =>
-          res.json()
-        );
-        const acs = await fetch("http://localhost:8000/ACs").then((res) =>
-          res.json()
-        );
-        const electronics = await fetch(
-          "http://localhost:8000/Electronics"
-        ).then((res) => res.json());
-        const clothing = await fetch("http://localhost:8000/Clothing").then(
-          (res) => res.json()
-        );
+        const response = await fetch("/data.json");
+        const data = await response.json();
+        
+        const mobiles = data.Mobiles || [];
+        const laptops = data.Laptops || [];
+        const tvs = data.TVs || [];
+        const acs = data.ACs || [];
+        const electronics = data.Electronics || [];
+        const clothing = data.Clothing || [];
 
         const products = [
           ...mobiles,

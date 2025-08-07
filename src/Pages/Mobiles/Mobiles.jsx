@@ -14,9 +14,9 @@ const Mobiles = () => {
   const [mobiles, setMobiles] = useState([]);
 
   async function jsonmobile() {
-    let response = await axios.get("http://localhost:8000/Mobiles");
     try {
-      setMobiles(response.data);
+      let response = await axios.get("/data.json");
+      setMobiles(response.data.Mobiles);
     } catch (err) {
       console.error("❌ Error fetching mobiles:", err);
     }

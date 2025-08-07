@@ -48,10 +48,9 @@ const TVs = () => {
   let [tv, setTv] = useState([]);
 
   async function jsontv() {
-    let response = await axios.get("http://localhost:8000/TVs");
-
     try {
-      setTv(response.data);
+      let response = await axios.get("/data.json");
+      setTv(response.data.TVs);
     } catch (err) {
       console.log(err.message);
     }

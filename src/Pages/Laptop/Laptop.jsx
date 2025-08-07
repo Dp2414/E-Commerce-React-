@@ -13,10 +13,9 @@ const Laptop = () => {
   let [laptop, setLaptop] = useState([]);
 
   async function jsonlaptop() {
-    let response = await axios.get("http://localhost:8000/Laptops");
-
     try {
-      setLaptop(response.data);
+      let response = await axios.get("/data.json");
+      setLaptop(response.data.Laptops);
     } catch (err) {
       console.log(err.message);
     }

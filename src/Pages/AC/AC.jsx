@@ -53,11 +53,11 @@ const AC = () => {
   const [ac, setAc] = useState([]);
 
   async function jsonac() {
-    let response = await axios.get("http://localhost:8000/ACs");
     try {
-      setAc(response.data);
+      let response = await axios.get("/data.json");
+      setAc(response.data.ACs);
     } catch (err) {
-      console.error("❌ Error fetching mobiles:", err);
+      console.error("❌ Error fetching ACs:", err);
     }
   }
 

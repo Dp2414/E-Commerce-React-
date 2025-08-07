@@ -12,11 +12,11 @@ const Clothing = () => {
   const [clothing, setCloth] = useState([]);
 
   async function jsoncloth() {
-    let response = await axios.get("http://localhost:8000/Clothing");
     try {
-      setCloth(response.data);
+      let response = await axios.get("/data.json");
+      setCloth(response.data.Clothing);
     } catch (err) {
-      console.error("❌ Error fetching mobiles:", err);
+      console.error("❌ Error fetching Clothing:", err);
     }
   }
 
