@@ -1,15 +1,70 @@
-import React, { useEffect, useState } from "react";
-import data from "../db.json";
+import React, { useContext, useEffect, useState } from "react";
+import { CartContext } from "./Context/Context";
+// import data from "../db.json";
 
-const Alldetails = ({ count, setCount }) => {
-  const allProducts = [
-    ...data.Mobiles,
-    ...data.Laptops,
-    ...data.TVs,
-    ...data.ACs,
-    ...data.Electronics,
-    ...data.Clothing,
-  ];
+const Alldetails = ({ onDataFetched}) => {
+  // const allProducts = [
+  //   ...data.Mobiles,
+  //   ...data.Laptops,
+  //   ...data.TVs,
+  //   ...data.ACs,
+  //   ...data.Electronics,
+  //   ...data.Clothing,
+  // ];
+
+  const [allProducts, setAllProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+    const {
+      count,
+      setCount,
+      quantities,
+      setQuantities,
+      updateCart,
+    
+    } = useContext(CartContext);
+  useEffect(() => {
+    const fetchAllProducts = async () => {
+      try {
+        setLoading(true);
+
+        const mobiles = await fetch("http://localhost:8000/Mobiles").then(
+          (res) => res.json()
+        );
+        const laptops = await fetch("http://localhost:8000/Laptops").then(
+          (res) => res.json()
+        );
+        const tvs = await fetch("http://localhost:8000/TVs").then((res) =>
+          res.json()
+        );
+        const acs = await fetch("http://localhost:8000/ACs").then((res) =>
+          res.json()
+        );
+        const electronics = await fetch(
+          "http://localhost:8000/Electronics"
+        ).then((res) => res.json());
+        const clothing = await fetch("http://localhost:8000/Clothing").then(
+          (res) => res.json()
+        );
+
+        const products = [
+          ...mobiles,
+          ...laptops,
+          ...tvs,
+          ...acs,
+          ...electronics,
+          ...clothing,
+        ];
+
+        setAllProducts(products);
+        onDataFetched({ mobiles, laptops, tvs, acs, electronics, clothing });
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchAllProducts();
+  }, []);
 
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 12;
@@ -21,8 +76,6 @@ const Alldetails = ({ count, setCount }) => {
     indexOfLastProduct
   );
 
-  const [quantities, setQuantities] = useState({});
-
   useEffect(() => {
     const stored = JSON.parse(localStorage.getItem("products")) || [];
     const initialQuantities = {};
@@ -32,26 +85,26 @@ const Alldetails = ({ count, setCount }) => {
     setQuantities(initialQuantities);
   }, [currentPage]);
 
-  const updateCart = (product, newQty) => {
-    let cart = JSON.parse(localStorage.getItem("products")) || [];
+  // const updateCart = (product, newQty) => {
+  //   let cart = JSON.parse(localStorage.getItem("products")) || [];
 
-    if (newQty <= 0) {
-      cart = cart.filter((item) => item.id !== product.id);
-    } else {
-      const exists = cart.find((item) => item.id === product.id);
-      if (exists) {
-        cart = cart.map((item) =>
-          item.id === product.id ? { ...item, quantity: newQty } : item
-        );
-      } else {
-        cart.push({ ...product, quantity: newQty });
-      }
-    }
+  //   if (newQty <= 0) {
+  //     cart = cart.filter((item) => item.id !== product.id);
+  //   } else {
+  //     const exists = cart.find((item) => item.id === product.id);
+  //     if (exists) {
+  //       cart = cart.map((item) =>
+  //         item.id === product.id ? { ...item, quantity: newQty } : item
+  //       );
+  //     } else {
+  //       cart.push({ ...product, quantity: newQty });
+  //     }
+  //   }
 
-    localStorage.setItem("products", JSON.stringify(cart));
-    setQuantities((prev) => ({ ...prev, [product.id]: newQty }));
-    setCount(cart.reduce((total, item) => total + item.quantity, 0));
-  };
+  //   localStorage.setItem("products", JSON.stringify(cart));
+  //   setQuantities((prev) => ({ ...prev, [product.id]: newQty }));
+  //   setCount(cart.reduce((total, item) => total + item.quantity, 0));
+  // };
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 

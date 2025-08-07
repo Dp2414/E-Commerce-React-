@@ -1,41 +1,43 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
+import { CartContext } from "./Context/Context";
 
-const ProductCard = ({ product, count, setCount, category }) => {
-  const [qty, setQty] = useState(0);
-
+const ProductCard = ({ product, category }) => {
+  // const [qty, setQty] = useState(0);
+   const { updateCart, quantities } = useContext(CartContext);
+ const qty = quantities[product.id] || 0;
   // Load quantity from localStorage
-  useEffect(() => {
-    const stored = JSON.parse(localStorage.getItem("products")) || [];
-    const found = stored.find((item) => item.id === product.id);
-    setQty(found ? found.quantity : 0);
-  }, [product.id]);
+  // useEffect(() => {
+  //   const stored = JSON.parse(localStorage.getItem("products")) || [];
+  //   const found = stored.find((item) => item.id === product.id);
+  //   setQty(found ? found.quantity : 0);
+  // }, [product.id]);
 
   // Update localStorage cart and count
-  const updateCart = (newQty) => {
-    let cart = JSON.parse(localStorage.getItem("products")) || [];
+  // const updateCart = (newQty) => {
+  //   let cart = JSON.parse(localStorage.getItem("products")) || [];
 
-    if (newQty <= 0) {
-      cart = cart.filter((item) => item.id !== product.id);
-    } else {
-      const exists = cart.find((item) => item.id === product.id);
-      if (exists) {
-        cart = cart.map((item) =>
-          item.id === product.id ? { ...item, quantity: newQty } : item
-        );
-      } else {
-        cart.push({ ...product, quantity: newQty });
-      }
-    }
+  //   if (newQty <= 0) {
+  //     cart = cart.filter((item) => item.id !== product.id);
+  //   } else {
+  //     const exists = cart.find((item) => item.id === product.id);
+  //     if (exists) {
+  //       cart = cart.map((item) =>
+  //         item.id === product.id ? { ...item, quantity: newQty } : item
+  //       );
+  //     } else {
+  //       cart.push({ ...product, quantity: newQty });
+  //     }
+  //   }
 
-    localStorage.setItem("products", JSON.stringify(cart));
-    setQty(newQty);
-    setCount(cart.reduce((total, item) => total + item.quantity, 0));
-  };
+  //   localStorage.setItem("products", JSON.stringify(cart));
+  //   setQty(newQty);
+  //   setCount(cart.reduce((total, item) => total + item.quantity, 0));
+  // };
 
-  const increase = () => updateCart(qty + 1);
-  const decrease = () => updateCart(qty - 1);
-  const delitem = () => updateCart(0);
+  const increase = () => updateCart(product, qty + 1);
+  const decrease = () => updateCart(product, qty - 1);
+  const delitem = () => updateCart(product, 0);
 
   return (
     <div className="card" style={{ width: "18rem", margin: "1rem" }}>

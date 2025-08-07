@@ -8,8 +8,7 @@ const ClothingDetails = () => {
   const { id } = useParams();
   const [ac, setAc] = useState(null);
   const [qty, setQty] = useState(0);
-
-  const { setCount } = useContext(CartContext); // ✅ get setCount
+ const { updateCart } = useContext(CartContext); // ✅ get setCount
 
   // Fetch product by ID
   useEffect(() => {
@@ -30,44 +29,22 @@ const ClothingDetails = () => {
   }, [id]);
 
   // Update localStorage and cart count
-  const updateCart = (newQty) => {
-    let items = JSON.parse(localStorage.getItem("products")) || [];
-
-    if (newQty <= 0) {
-      items = items.filter((item) => item.id !== ac.id);
-    } else {
-      const exists = items.find((item) => item.id === ac.id);
-      if (exists) {
-        items = items.map((item) =>
-          item.id === ac.id ? { ...item, quantity: newQty } : item
-        );
-      } else {
-        items.push({ ...ac, quantity: newQty });
-      }
-    }
-
-    localStorage.setItem("products", JSON.stringify(items));
-
-    // ✅ update the cart count in context
-    const totalCount = items.reduce((acc, item) => acc + item.quantity, 0);
-    setCount(totalCount);
-  };
-
+ 
   const increase = () => {
     const newQty = qty + 1;
     setQty(newQty);
-    updateCart(newQty);
+    updateCart(ac,newQty);
   };
 
   const decrease = () => {
     const newQty = qty - 1;
     setQty(newQty);
-    updateCart(newQty);
+    updateCart(ac,newQty);
   };
 
   const delitem = () => {
     setQty(0);
-    updateCart(0);
+    updateCart(ac,0);
   };
 
   if (!ac) return <p>Loading...</p>;

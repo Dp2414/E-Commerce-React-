@@ -234,27 +234,25 @@ import { CartContext } from "../../Context/Context";
 import "./basket.css";
 
 function SaveForLater({ savelater, setSavelater, setCartItems }) {
-  const { setCount } = useContext(CartContext);
+  const { updateCart } = useContext(CartContext); // Use updateCart from context
 
- 
   useEffect(() => {
-
-      const saved = JSON.parse(localStorage.getItem("savedForLater")) || [];
-      setSavelater(saved);
-    
+    const saved = JSON.parse(localStorage.getItem("savedForLater")) || [];
+    setSavelater(saved);
   }, []);
 
   const moveToCart = (item) => {
+    console.log("Moving to cart:", item.id);
+    console.log("Before filter:", savelater.length);
+
+    // Use Context's updateCart instead of manual localStorage management
+    updateCart(item, 1); // This will update both localStorage and Context state
+
+    // Update local cart items state for Basket.jsx
     let products = JSON.parse(localStorage.getItem("products")) || [];
+    setCartItems(products);
 
-    const exists = products.find((p) => p.id === item.id);
-    if (!exists) {
-      const updatedProducts = [...products, { ...item, quantity: 1 }];
-      localStorage.setItem("products", JSON.stringify(updatedProducts));
-      setCartItems(updatedProducts);
-      setCount((prev) => prev + 1);
-    }
-
+    // Remove from saved items
     const updated = savelater.filter((i) => i.id !== item.id);
     setSavelater(updated);
     localStorage.setItem("savedForLater", JSON.stringify(updated));

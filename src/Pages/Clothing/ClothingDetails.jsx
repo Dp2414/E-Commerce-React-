@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import { CartContext } from "../../Context/Context"; // ✅ import context
+import { CartContext } from "../../Context/Context"; 
 import "/src/App.css";
 
 const ClothingDetails = () => {
@@ -9,7 +9,7 @@ const ClothingDetails = () => {
   const [clothing, setCloth] = useState(null);
   const [qty, setQty] = useState(0);
 
-  const { setCount } = useContext(CartContext); // ✅ get setCount
+      const { updateCart } = useContext(CartContext); 
 
   // Fetch product by ID
   useEffect(() => {
@@ -32,44 +32,22 @@ const ClothingDetails = () => {
   }, [id]);
 
   // Update localStorage and cart count
-  const updateCart = (newQty) => {
-    let items = JSON.parse(localStorage.getItem("products")) || [];
-
-    if (newQty <= 0) {
-      items = items.filter((item) => item.id !== clothing.id);
-    } else {
-      const exists = items.find((item) => item.id === clothing.id);
-      if (exists) {
-        items = items.map((item) =>
-          item.id === clothing.id ? { ...item, quantity: newQty } : item
-        );
-      } else {
-        items.push({ ...clothing, quantity: newQty });
-      }
-    }
-
-    localStorage.setItem("products", JSON.stringify(items));
-
-    // ✅ update the cart count in context
-    const totalCount = items.reduce((acc, item) => acc + item.quantity, 0);
-    setCount(totalCount);
-  };
-
+ 
   const increase = () => {
     const newQty = qty + 1;
     setQty(newQty);
-    updateCart(newQty);
+    updateCart(clothing,newQty);
   };
 
   const decrease = () => {
     const newQty = qty - 1;
     setQty(newQty);
-    updateCart(newQty);
+    updateCart(clothing,newQty);
   };
 
   const delitem = () => {
     setQty(0);
-    updateCart(0);
+    updateCart(clothing,0);
   };
 
   if (!clothing) return <p>Loading...</p>;

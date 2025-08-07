@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 // import db from './db.json'
 import "./home.css";
 import MobileCard from "./MobileCard";
@@ -17,7 +17,8 @@ import AC from "../AC/AC";
 import Ele from "../Electronics/Ele"
 import Clothing from "../Clothing/Clothing";
 import Alldetails from "../../Alldetails";
-const Home = (props) => {
+import { CartContext } from "../../Context/Context";
+const Home = ({ homeData, ...props }) => {
   const [mobile, setData] = useState([]);
   const [laptop, setLaptop] = useState([]);
   const [Tv, setTv] = useState([]);
@@ -25,108 +26,107 @@ const Home = (props) => {
   const [Elee, setEle] = useState([]);
   const [Cloth, setCloth] = useState([]);
   const [activePage, setActivePage] = useState("Mobiles");
+  const { count, setCount, updateCart, quantities } = useContext(CartContext);
 
-  
-
-
-
-  let count = props.count;
-  let setCount = props.setCount;
+  // let count = props.count;
+  // let setCount = props.setCount;
   const [test, setTest] = useState(0);
-
 
   function mg() {
     setTest(test + 1);
     console.log(test);
-    console.log('called');
+    console.log("called");
   }
 
-
- 
-
-  async function server() {
-    try {
-      let mobresponse = await axios.get("http://localhost:8000/Mobiles");
-      let lapresponse = await axios.get("http://localhost:8000/Laptops");
-      let tvresponse = await axios.get("http://localhost:8000/TVs");
-      let eleresponse = await axios.get("http://localhost:8000/Electronics");
-      let acresponse = await axios.get("http://localhost:8000/ACs");
-      let clothingresponse = await axios.get("http://localhost:8000/Clothing");
-      let allMobiles = mobresponse.data;
-      let firstFourMobiles = allMobiles.slice(0, 4);
-      console.log("Mobiles Data", allMobiles);
-      let allLaptops = lapresponse.data;
-      let firstFourLaptops = allLaptops.slice(0, 4);
-      console.log("Laptops Data", allLaptops);
-       let allTv = tvresponse.data;
-       let firstFourTvs = allTv.slice(0, 4);
-
-      console.log("Tv Data", allTv);
-
-
-      let allACs = acresponse.data;
-      let firstFourACs = allACs.slice(0, 4);
-      console.log("ACs Data", allACs);
-
-
-      let allElectronics = eleresponse.data;
-      let firstFourElectronics = allElectronics.slice(0, 4);
-      console.log("Electronics Data", allElectronics);
-
-      let allClothing = clothingresponse.data;
-      let firstFourClothing = allClothing.slice(0, 4);
-      console.log("Clothing Data", allClothing);
-
-
-      
-      setLaptop(firstFourLaptops);
-      setData(firstFourMobiles);
-      setTv(firstFourTvs);
-      setAc(firstFourACs);
-      setEle(firstFourElectronics);
-      setCloth(firstFourClothing);
-      
-      console.log("Mobiels First Four Data", firstFourMobiles);
-      console.log("Laptops First Four Data", firstFourLaptops);
-      console.log("TVs First Four Data", firstFourTvs);
-      console.log("ACs First Four Data", firstFourACs);
-      console.log("Electronics First Four Data", firstFourElectronics);
-     
-      console.log("Clothing First Four Data", firstFourClothing);
-   
-    } catch (err) {
-      console.log(err);
-    }
-  }
-  //
   useEffect(() => {
-    server();
-  }, []);
-    const updateCart = (newQty) => {
-      let cart = JSON.parse(localStorage.getItem("products")) || [];
+    if (homeData) {
+      setData(homeData.mobiles?.slice(0, 4) || []);
+      setLaptop(homeData.laptops?.slice(0, 4) || []);
+      setTv(homeData.tvs?.slice(0, 4) || []);
+      setAc(homeData.acs?.slice(0, 4) || []);
+      setEle(homeData.electronics?.slice(0, 4) || []);
+      setCloth(homeData.clothing?.slice(0, 4) || []);
+    }
+  }, [homeData]);
 
-      if (newQty <= 0) {
-        cart = cart.filter((item) => item.id !== product.id);
-      } else {
-        const exists = cart.find((item) => item.id === product.id);
-        if (exists) {
-          cart = cart.map((item) =>
-            item.id === product.id ? { ...item, quantity: newQty } : item
-          );
-        } else {
-          cart.push({ ...product, quantity: newQty });
-        }
-      }
+  // async function server() {
+  //   try {
+  //     let mobresponse = await axios.get("http://localhost:8000/Mobiles");
+  //     let lapresponse = await axios.get("http://localhost:8000/Laptops");
+  //     let tvresponse = await axios.get("http://localhost:8000/TVs");
+  //     let eleresponse = await axios.get("http://localhost:8000/Electronics");
+  //     let acresponse = await axios.get("http://localhost:8000/ACs");
+  //     let clothingresponse = await axios.get("http://localhost:8000/Clothing");
+  //     let allMobiles = mobresponse.data;
+  //     let firstFourMobiles = allMobiles.slice(0, 4);
+  //     console.log("Mobiles Data", allMobiles);
+  //     let allLaptops = lapresponse.data;
+  //     let firstFourLaptops = allLaptops.slice(0, 4);
+  //     console.log("Laptops Data", allLaptops);
+  //      let allTv = tvresponse.data;
+  //      let firstFourTvs = allTv.slice(0, 4);
 
-      localStorage.setItem("products", JSON.stringify(cart));
-      setQty(newQty);
-      setCount(cart.reduce((total, item) => total + item.quantity, 0));
-    };
+  //     console.log("Tv Data", allTv);
 
-    const increase = () => updateCart(qty + 1);
-    const decrease = () => updateCart(qty - 1);
-    const delitem = () => updateCart(0);
+  //     let allACs = acresponse.data;
+  //     let firstFourACs = allACs.slice(0, 4);
+  //     console.log("ACs Data", allACs);
 
+  //     let allElectronics = eleresponse.data;
+  //     let firstFourElectronics = allElectronics.slice(0, 4);
+  //     console.log("Electronics Data", allElectronics);
+
+  //     let allClothing = clothingresponse.data;
+  //     let firstFourClothing = allClothing.slice(0, 4);
+  //     console.log("Clothing Data", allClothing);
+
+  //     setLaptop(firstFourLaptops);
+  //     setData(firstFourMobiles);
+  //     setTv(firstFourTvs);
+  //     setAc(firstFourACs);
+  //     setEle(firstFourElectronics);
+  //     setCloth(firstFourClothing);
+
+  //     console.log("Mobiels First Four Data", firstFourMobiles);
+  //     console.log("Laptops First Four Data", firstFourLaptops);
+  //     console.log("TVs First Four Data", firstFourTvs);
+  //     console.log("ACs First Four Data", firstFourACs);
+  //     console.log("Electronics First Four Data", firstFourElectronics);
+
+  //     console.log("Clothing First Four Data", firstFourClothing);
+
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // }
+  //
+  // useEffect(() => {
+  //   server();
+  // }, []);
+  // const updateCart = (newQty) => {
+  //   let cart = JSON.parse(localStorage.getItem("products")) || [];
+
+  //   if (newQty <= 0) {
+  //     cart = cart.filter((item) => item.id !== product.id);
+  //   } else {
+  //     const exists = cart.find((item) => item.id === product.id);
+  //     if (exists) {
+  //       cart = cart.map((item) =>
+  //         item.id === product.id ? { ...item, quantity: newQty } : item
+  //       );
+  //     } else {
+  //       cart.push({ ...product, quantity: newQty });
+  //     }
+  //   }
+
+  //   localStorage.setItem("products", JSON.stringify(cart));
+  //   setQty(newQty);
+  //   setCount(cart.reduce((total, item) => total + item.quantity, 0));
+  // };
+
+  // const increase = () => updateCart(qty + 1);
+  // const decrease = () => updateCart(qty - 1);
+  // const delitem = () => updateCart(0);
 
   // let displaymobiles =db.Mobiles.slice(0, 4);
   // let displaylaptops = db.Laptops.slice(0, 4);
@@ -223,18 +223,18 @@ const Home = (props) => {
         <button onClick={() => setActivePage("Ele")}>Electronics</button>
         <button onClick={() => setActivePage("Clothing")}>Clothing</button>
       </div> */}
-      <Alldetails
+      {/* <Alldetails
         count={count}
         setCount={setCount}
         increase={increase}
         decrease={decrease}
         delitem={delitem}
-      />
+      /> */}
 
       <button onClick={mg}>{test}Tetsing</button>
+      <h1>hello</h1>
     </div>
   );
- 
 };
 
 export default Home;

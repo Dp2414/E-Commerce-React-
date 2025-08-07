@@ -418,14 +418,15 @@ import SaveForLater from "./SaveForLater";
 import QuizModal from "./QuizModal";
 
 const Basket = () => {
-  const { setCount } = useContext(CartContext);
+  const { count, setCount, updateCart, quantities, clearCart } =
+    useContext(CartContext); // Use context
   const [cartItems, setCartItems] = useState([]);
   const [savelater, setSavelater] = useState([]);
   const [showQuiz, setShowQuiz] = useState(false);
   const [finalAmount, setFinalAmount] = useState(null);
   const [orderPlaced, setOrderPlaced] = useState(false);
 
-  // Load cart and saved items from localStorage
+  // Load cart items from localStorage
   useEffect(() => {
     const saved = JSON.parse(localStorage.getItem("products")) || [];
     const withQty = saved.map((item) =>
@@ -437,31 +438,38 @@ const Basket = () => {
     setSavelater(savedLater);
   }, []);
 
-  // Sync cart changes to localStorage and update count
-  useEffect(() => {
-    localStorage.setItem("products", JSON.stringify(cartItems));
-    const totalQty = cartItems.reduce((acc, item) => acc + item.quantity, 0);
-    setCount(totalQty);
-  }, [cartItems, setCount]);
-
+  // Use Context's updateCart instead of local functions
   const increase = (product) => {
+    const currentQty = quantities[product.id] || 0;
+    updateCart(product, currentQty + 1);
+    // Update local state for immediate UI update
     setCartItems((prev) =>
       prev.map((item) =>
-        item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item
+        item.id === product.id ? { ...item, quantity: currentQty + 1 } : item
       )
     );
   };
 
   const decrease = (product) => {
-    setCartItems((prev) =>
-      prev
-        .map((item) =>
-          item.id === product.id
-            ? { ...item, quantity: item.quantity - 1 }
-            : item
+    const currentQty = quantities[product.id] || 0;
+    const newQty = currentQty - 1;
+
+    if (newQty <= 0) {
+      updateCart(product, 0); // This will remove from cart
+      setCartItems((prev) => prev.filter((item) => item.id !== product.id));
+    } else {
+      updateCart(product, newQty);
+      setCartItems((prev) =>
+        prev.map((item) =>
+          item.id === product.id ? { ...item, quantity: newQty } : item
         )
-        .filter((item) => item.quantity > 0)
-    );
+      );
+    }
+  };
+
+  const removeFromCart = (product) => {
+    updateCart(product, 0); // Use context's updateCart
+    setCartItems((prev) => prev.filter((item) => item.id !== product.id));
   };
 
   function saveforlater(product) {
@@ -470,14 +478,11 @@ const Basket = () => {
     if (!savelater.find((item) => item.id === product.id)) {
       const updated = [...savelater, product];
       setSavelater(updated);
-      localStorage.setItem("savedForLater", JSON.stringify(updated)); // 🔴 IMMEDIATE UPDATE
+      localStorage.setItem("savedForLater", JSON.stringify(updated));
     }
   }
 
-  const removeFromCart = (product) => {
-    setCartItems((prev) => prev.filter((item) => item.id !== product.id));
-  };
-
+  // Rest of your component stays the same...
   const subtotal = cartItems.reduce(
     (sum, item) => sum + item.price * item.quantity,
     0
@@ -500,6 +505,7 @@ const Basket = () => {
     setOrderPlaced(true);
     setCartItems([]); // Empty cart after order
     localStorage.setItem("products", JSON.stringify([]));
+    clearCart();
   };
 
   return (

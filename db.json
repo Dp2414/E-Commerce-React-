@@ -1,14 +1,14 @@
 {
   "Mobiles": [
     {
-      "id": 1,
       "title": "Samsung Galaxy S23 Ultra (512GB)",
       "brand": "Samsung",
-      "price": 120000,
+      "price": 0,
       "rating": 4.6,
       "description": "6.8-inch Dynamic AMOLED display, 200MP camera, Snapdragon 8 Gen 2 chipset, 12GB RAM, 5000mAh battery, up to 45W fast charging.",
-      "category": "Mobiles",
       "image": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
+      "expectedDelivery": "2025-07-11",
+      "category": "Mobiles",
       "reviews": [
         {
           "user": "TechEnthusiast",
@@ -41,10 +41,10 @@
           "comment": "Not satisfied — build quality or support let me down."
         }
       ],
-      "expectedDelivery": "2025-07-11"
+      "id": "1"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Apple iPhone 14 Pro (128GB)",
       "brand": "Apple",
       "price": 130000,
@@ -82,7 +82,7 @@
       "expectedDelivery": "2025-07-11"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "OnePlus 11 (8GB RAM, 128GB)",
       "brand": "OnePlus",
       "price": 55000,
@@ -125,7 +125,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Google Pixel 7 Pro (12GB, 256GB)",
       "brand": "Google",
       "price": 70000,
@@ -168,7 +168,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Xiaomi Redmi Note 12 Pro (6GB, 128GB)",
       "brand": "Xiaomi",
       "price": 25000,
@@ -206,7 +206,7 @@
       "expectedDelivery": "2025-07-11"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Vivo V27 Pro (8GB, 256GB)",
       "brand": "Vivo",
       "price": 35000,
@@ -244,7 +244,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "OPPO Reno8 Pro (8GB, 128GB)",
       "brand": "OPPO",
       "price": 30000,
@@ -282,7 +282,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "realme GT 2 (8GB, 128GB)",
       "brand": "realme",
       "price": 30000,
@@ -325,7 +325,7 @@
       "expectedDelivery": "2025-07-11"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Samsung Galaxy A54 (6GB, 128GB)",
       "brand": "Samsung",
       "price": 30000,
@@ -363,7 +363,7 @@
       "expectedDelivery": "2025-07-15"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Motorola Edge 40 Neo (6GB, 128GB)",
       "brand": "Motorola",
       "price": 35000,
@@ -404,11 +404,23 @@
         }
       ],
       "expectedDelivery": "2025-07-14"
+    },
+    {
+      "id": "65",
+      "title": "Redmi K20Pro",
+      "brand": "Xiaomi",
+      "price": 25000,
+      "rating": 0,
+      "description": "",
+      "image": "",
+      "expectedDelivery": "",
+      "category": "Mobiles",
+      "reviews": []
     }
   ],
   "Laptops": [
     {
-      "id": 11,
+      "id": "11",
       "title": "Apple MacBook Air (M2, 13-inch, 2022)",
       "brand": "Apple",
       "price": 110000,
@@ -451,7 +463,7 @@
       "expectedDelivery": "2025-07-13"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Dell XPS 13 (Core i7, 16GB, 512GB)",
       "brand": "Dell",
       "price": 120000,
@@ -489,7 +501,7 @@
       "expectedDelivery": "2025-07-11"
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "HP Pavilion 15 (Ryzen 7, 16GB, 512GB)",
       "brand": "HP",
       "price": 70000,
@@ -532,7 +544,7 @@
       "expectedDelivery": "2025-07-12"
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Lenovo Legion 5 (RTX 3050, 16GB, 512GB)",
       "brand": "Lenovo",
       "price": 90000,
@@ -570,7 +582,7 @@
       "expectedDelivery": "2025-07-12"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "ASUS ROG Zephyrus G14 (Ryzen 9, RTX 3060, 1TB)",
       "brand": "ASUS",
       "price": 150000,
@@ -608,7 +620,7 @@
       "expectedDelivery": "2025-07-15"
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Acer Aspire 5 (Core i5, 8GB, 512GB)",
       "brand": "Acer",
       "price": 45000,
@@ -651,7 +663,7 @@
       "expectedDelivery": "2025-07-12"
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Samsung Galaxy Book3 (15.6\", Core i7, 16GB, 512GB)",
       "brand": "Samsung",
       "price": 100000,
@@ -689,7 +701,7 @@
       "expectedDelivery": "2025-07-11"
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Lenovo IdeaPad Slim 3 (Core i3, 8GB, 256GB)",
       "brand": "Lenovo",
       "price": 40000,
@@ -727,7 +739,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Apple MacBook Pro (M1 Pro, 16-inch, 2021)",
       "brand": "Apple",
       "price": 190000,
@@ -770,7 +782,7 @@
       "expectedDelivery": "2025-07-13"
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "ASUS VivoBook 14 (Intel Core i5, 8GB, 512GB)",
       "brand": "ASUS",
       "price": 50000,
@@ -815,7 +827,7 @@
   ],
   "TVs": [
     {
-      "id": 21,
+      "id": "21",
       "title": "Samsung 55-inch 4K Crystal UHD Smart TV",
       "brand": "Samsung",
       "price": 70000,
@@ -842,7 +854,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Sony Bravia 65-inch OLED 4K TV",
       "brand": "Sony",
       "price": 200000,
@@ -869,7 +881,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "LG 50-inch NanoCell 4K Smart TV",
       "brand": "LG",
       "price": 60000,
@@ -896,7 +908,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "Samsung 32-inch HD LED Smart TV",
       "brand": "Samsung",
       "price": 20000,
@@ -923,7 +935,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "Panasonic 43-inch LED 4K Smart TV",
       "brand": "Panasonic",
       "price": 40000,
@@ -950,7 +962,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "Mi 55-inch 4K Android LED TV",
       "brand": "Mi",
       "price": 50000,
@@ -977,7 +989,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "Sony 43-inch Full HD LED TV",
       "brand": "Sony",
       "price": 35000,
@@ -1004,7 +1016,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "LG 75-inch Ultra HD Smart TV",
       "brand": "LG",
       "price": 250000,
@@ -1031,7 +1043,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Sony 85-inch Bravia 4K Smart TV",
       "brand": "Sony",
       "price": 350000,
@@ -1058,7 +1070,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Samsung The Frame 50-inch 4K Art TV",
       "brand": "Samsung",
       "price": 80000,
@@ -1087,7 +1099,7 @@
   ],
   "ACs": [
     {
-      "id": 31,
+      "id": "31",
       "title": "LG 1.5 Ton 5-Star Inverter Split AC",
       "brand": "LG",
       "price": 55000,
@@ -1130,7 +1142,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 32,
+      "id": "32",
       "title": "Voltas 1.5 Ton 3-Star Split AC",
       "brand": "Voltas",
       "price": 35000,
@@ -1173,7 +1185,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 33,
+      "id": "33",
       "title": "Daikin 1.5 Ton 5-Star Inverter Split AC",
       "brand": "Daikin",
       "price": 60000,
@@ -1211,7 +1223,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 34,
+      "id": "34",
       "title": "Blue Star 1.5 Ton 4-Star Split AC",
       "brand": "Blue Star",
       "price": 50000,
@@ -1254,7 +1266,7 @@
       "expectedDelivery": "2025-07-15"
     },
     {
-      "id": 35,
+      "id": "35",
       "title": "Hitachi 1.5 Ton 5-Star Inverter Split AC",
       "brand": "Hitachi",
       "price": 50000,
@@ -1292,7 +1304,7 @@
       "expectedDelivery": "2025-07-15"
     },
     {
-      "id": 36,
+      "id": "36",
       "title": "Voltas 1 Ton 3-Star Split AC",
       "brand": "Voltas",
       "price": 30000,
@@ -1330,7 +1342,7 @@
       "expectedDelivery": "2025-07-13"
     },
     {
-      "id": 37,
+      "id": "37",
       "title": "Carrier 2 Ton 5-Star Split AC",
       "brand": "Carrier",
       "price": 50000,
@@ -1368,7 +1380,7 @@
       "expectedDelivery": "2025-07-13"
     },
     {
-      "id": 38,
+      "id": "38",
       "title": "Daikin 1 Ton 5-Star Inverter Split AC",
       "brand": "Daikin",
       "price": 40000,
@@ -1406,7 +1418,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 39,
+      "id": "39",
       "title": "LG 1 Ton 3-Star Split AC",
       "brand": "LG",
       "price": 35000,
@@ -1449,7 +1461,7 @@
       "expectedDelivery": "2025-07-15"
     },
     {
-      "id": 40,
+      "id": "40",
       "title": "Kelvinator 1.5 Ton 5-Star Split AC",
       "brand": "Kelvinator",
       "price": 45000,
@@ -1494,7 +1506,7 @@
   ],
   "Electronics": [
     {
-      "id": 41,
+      "id": "41",
       "title": "LG 260L Double-Door Frost Free Refrigerator",
       "brand": "LG",
       "price": 35000,
@@ -1532,7 +1544,7 @@
       "expectedDelivery": "2025-07-15"
     },
     {
-      "id": 42,
+      "id": "42",
       "title": "Samsung 230L Single-Door Refrigerator",
       "brand": "Samsung",
       "price": 25000,
@@ -1575,7 +1587,7 @@
       "expectedDelivery": "2025-07-13"
     },
     {
-      "id": 43,
+      "id": "43",
       "title": "Whirlpool 200L Direct-Cool Refrigerator",
       "brand": "Whirlpool",
       "price": 20000,
@@ -1618,7 +1630,7 @@
       "expectedDelivery": "2025-07-11"
     },
     {
-      "id": 44,
+      "id": "44",
       "title": "LG 7kg Front-Load Washing Machine",
       "brand": "LG",
       "price": 30000,
@@ -1661,7 +1673,7 @@
       "expectedDelivery": "2025-07-12"
     },
     {
-      "id": 45,
+      "id": "45",
       "title": "IFB 6kg Front-Load Washing Machine",
       "brand": "IFB",
       "price": 25000,
@@ -1699,7 +1711,7 @@
       "expectedDelivery": "2025-07-15"
     },
     {
-      "id": 46,
+      "id": "46",
       "title": "Bosch 7kg Inverter Washing Machine",
       "brand": "Bosch",
       "price": 35000,
@@ -1737,7 +1749,7 @@
       "expectedDelivery": "2025-07-11"
     },
     {
-      "id": 47,
+      "id": "47",
       "title": "Panasonic 20L Convection Microwave Oven",
       "brand": "Panasonic",
       "price": 8000,
@@ -1775,7 +1787,7 @@
       "expectedDelivery": "2025-07-15"
     },
     {
-      "id": 48,
+      "id": "48",
       "title": "IFB 20L Solo Microwave Oven",
       "brand": "IFB",
       "price": 6000,
@@ -1813,7 +1825,7 @@
       "expectedDelivery": "2025-07-15"
     },
     {
-      "id": 49,
+      "id": "49",
       "title": "Havells 2000W Room Heater",
       "brand": "Havells",
       "price": 4000,
@@ -1856,7 +1868,7 @@
       "expectedDelivery": "2025-07-12"
     },
     {
-      "id": 50,
+      "id": "50",
       "title": "Philips 750W Mixer Grinder",
       "brand": "Philips",
       "price": 3500,
@@ -1894,7 +1906,7 @@
       "expectedDelivery": "2025-07-13"
     },
     {
-      "id": 51,
+      "id": "51",
       "title": "Voltas 70L Desert Air Cooler",
       "brand": "Voltas",
       "price": 15000,
@@ -1937,7 +1949,7 @@
       "expectedDelivery": "2025-07-11"
     },
     {
-      "id": 52,
+      "id": "52",
       "title": "Bajaj 750W Mixer Grinder",
       "brand": "Bajaj",
       "price": 3000,
@@ -1977,7 +1989,7 @@
   ],
   "Clothing": [
     {
-      "id": 53,
+      "id": "53",
       "title": "Levi's Men's 511 Slim Fit Jeans",
       "brand": "Levi's",
       "price": 2000,
@@ -2020,7 +2032,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 54,
+      "id": "54",
       "title": "United Colors of Benetton Men's Polo T-Shirt",
       "brand": "United Colors of Benetton",
       "price": 1200,
@@ -2058,7 +2070,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 55,
+      "id": "55",
       "title": "Peter England Men's Formal Shirt",
       "brand": "Peter England",
       "price": 1500,
@@ -2096,7 +2108,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 56,
+      "id": "56",
       "title": "Puma Men's Round-Neck T-Shirt",
       "brand": "Puma",
       "price": 800,
@@ -2134,7 +2146,7 @@
       "expectedDelivery": "2025-07-11"
     },
     {
-      "id": 57,
+      "id": "57",
       "title": "Allen Solly Men's Slim Fit Chinos",
       "brand": "Allen Solly",
       "price": 1800,
@@ -2177,7 +2189,7 @@
       "expectedDelivery": "2025-07-15"
     },
     {
-      "id": 58,
+      "id": "58",
       "title": "W Women's Printed Kurta",
       "brand": "W",
       "price": 1200,
@@ -2220,7 +2232,7 @@
       "expectedDelivery": "2025-07-15"
     },
     {
-      "id": 59,
+      "id": "59",
       "title": "Aurelia Women's Embroidered Kurta",
       "brand": "Aurelia",
       "price": 1500,
@@ -2258,7 +2270,7 @@
       "expectedDelivery": "2025-07-11"
     },
     {
-      "id": 60,
+      "id": "60",
       "title": "AND Women's Solid A-line Dress",
       "brand": "AND",
       "price": 1800,
@@ -2301,7 +2313,7 @@
       "expectedDelivery": "2025-07-13"
     },
     {
-      "id": 61,
+      "id": "61",
       "title": "Calvin Klein Women's Skinny Jeans",
       "brand": "Calvin Klein",
       "price": 2500,
@@ -2339,7 +2351,7 @@
       "expectedDelivery": "2025-07-12"
     },
     {
-      "id": 62,
+      "id": "62",
       "title": "Jack & Jones Men's Hoodie",
       "brand": "Jack & Jones",
       "price": 1200,
@@ -2382,7 +2394,7 @@
       "expectedDelivery": "2025-07-14"
     },
     {
-      "id": 63,
+      "id": "63",
       "title": "H&M Women's Floral Print Dress",
       "brand": "H&M",
       "price": 1500,
@@ -2420,7 +2432,7 @@
       "expectedDelivery": "2025-07-11"
     },
     {
-      "id": 64,
+      "id": "64",
       "title": "Adidas Women's Track Pants",
       "brand": "Adidas",
       "price": 2000,

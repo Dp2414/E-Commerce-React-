@@ -5,10 +5,9 @@ import Dropdown from './Dropdown';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../../Context/Context';
 const Navbar = () => {
-  const navigate = useNavigate();
-   const { count, setCount } = useContext(CartContext); 
+  const { count,setCount } = useContext(CartContext);
   return (
-    <nav className="navbar navone navbar-expand-lg ">
+    <nav className="navbar navone navbar-expand-lg sticky-top">
       <div className="container-fluid my-0">
         <Link className="navbar-brand" to="/">
           <img
@@ -136,9 +135,11 @@ const Navbar = () => {
               <Dropdown count={count} setCount={setCount} />
             </li>
             <li className="nav-item returnorders ">
-              <a className="nav-link padding" href="#">
-                <p className="p-0 my-2">Placed Orders</p>
-              </a>
+              
+                <Link to="/orders" className="nav-link padding p-0 my-2">
+                  Placed Orders
+                </Link>
+              
             </li>
             <li className="nav-item navcart ">
               <Link className="nav-link padding" to="/cart">

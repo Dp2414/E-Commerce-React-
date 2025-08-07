@@ -8,7 +8,7 @@ import axios from "axios";
 import { CartContext } from "../../Context/Context";
 import ProductCard from "../../ProductCard";
 const Clothing = () => {
-  const { count, setCount } = useContext(CartContext);
+
   const [clothing, setCloth] = useState([]);
 
   async function jsoncloth() {
@@ -23,22 +23,7 @@ const Clothing = () => {
   useEffect(() => {
     jsoncloth();
   }, []);
-  const increase = () => {
-    const newQty = qty + 1;
-    setQty(newQty);
-    updateCart(newQty);
-  };
-
-  const decrease = () => {
-    const newQty = qty - 1;
-    setQty(newQty);
-    updateCart(newQty);
-  };
-
-  const delitem = () => {
-    setQty(0);
-    updateCart(0);
-  };
+ 
   return (
     <div
       style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
@@ -47,11 +32,7 @@ const Clothing = () => {
         <ProductCard
           key={cloth.id}
           product={cloth}
-          count={count}
-          setCount={setCount}
-          increase={increase}
-          decrease={decrease}
-          delitem={delitem}
+         
           category="Clothing"
         />
       ))}

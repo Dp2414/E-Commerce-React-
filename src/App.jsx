@@ -1,219 +1,4 @@
-// ------------------main-------------------------
-
-// import React, { useEffect, useState } from 'react'
-// import Navbar from './Components/Navbar/Navbar'
-// import "bootstrap-icons/font/bootstrap-icons.css";
-// import Secondnav from './Components/SecondNav/Secondnav';
-// import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-// import Mobiles from './Pages/Mobiles/Mobiles';
-// import Laptop from './Pages/Laptop/Laptop';
-// import Home from './Pages/Home/Home';
-
-// import TVs from './Pages/TVs/TVs'
-// import Basket from './Pages/Basket/Basket';
-// import AC from './Pages/AC/AC';
-// import Ele from './Pages/Electronics/Ele';
-// import Clothing from './Pages/Clothing/Clothing';
-// // import Apis from './Custom Hooks/Apis/Apis';
-// const App = () => {
-
-//   const [count, setCount] = useState(() => {
-//     const saved = localStorage.getItem("cartCount");
-//     return saved ? parseInt(saved) : 0;
-//   });
-//   useEffect(() => {
-//     localStorage.setItem("cartCount", count);
-//   }, [count]);
-//   return (
-//     <>
-//       <BrowserRouter>
-//         <Navbar count={count} />
-//         <Secondnav />
-
-//         <Routes>
-//           <Route
-//             path="/"
-//             element={<Home count={count} setCount={setCount} />}
-//           />
-//           <Route
-//             path="/Mobiles"
-//             element={<Mobiles setCount={setCount} count={count} />}
-//           />
-//           <Route
-//             path="/Laptops"
-//             element={<Laptop setCount={setCount} count={count} />}
-//           />
-//           <Route
-//             path="/TVs"
-//             element={<TVs setCount={setCount} count={count} />}
-//           />
-//           <Route
-//             path="/ACs"
-//             element={<AC setCount={setCount} count={count} />}
-//           />
-//           <Route
-//             path="/Electronics"
-//             element={<Ele setCount={setCount} count={count} />}
-//           />
-//           <Route
-//             path="/Clothing"
-//             element={<Clothing setCount={setCount} count={count} />}
-//           />
-
-//           <Route
-//             path="/cart"
-//             element={<Basket setCount={setCount} count={count} />}
-//           />
-//         </Routes>
-//       </BrowserRouter>
-//     </>
-//   );
-// }
-// export default App
-
-// import CartContext from "./CartContext";
-// import React, { useEffect, useState } from 'react'
-// import Navbar from './Components/Navbar/Navbar'
-// import "bootstrap-icons/font/bootstrap-icons.css";
-// import Secondnav from './Components/SecondNav/Secondnav';
-// import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-// import Mobiles from './Pages/Mobiles/Mobiles';
-// import Laptop from './Pages/Laptop/Laptop';
-// import Home from './Pages/Home/Home';
-// import Banner from './Components/Banner/Banner';
-// import TVs from './Pages/TVs/TVs'
-// import Basket from './Pages/Basket/Basket';
-// import AC from './Pages/AC/AC';
-// import Ele from './Pages/Electronics/Ele';
-// import Clothing from './Pages/Clothing/Clothing';
-
-// const App = () => {
-//   const [cartItems, setCartItems] = useState(() => {
-//     return JSON.parse(localStorage.getItem("products")) || [];
-//   });
-
-//   const [count, setCount] = useState(() => {
-//     const saved = localStorage.getItem("cartCount");
-//     return saved ? parseInt(saved) : 0;
-//   });
-
-//   useEffect(() => {
-//     localStorage.setItem("products", JSON.stringify(cartItems));
-//     localStorage.setItem("cartCount", count);
-//   }, [cartItems, count]);
-
-//   const addToCart = (product) => {
-//     if (!cartItems.find((item) => item.id === product.id)) {
-//       setCartItems([...cartItems, product]);
-//       setCount(count + 1);
-//     }
-//   };
-
-//   const removeFromCart = (productId) => {
-//     const updated = cartItems.filter((item) => item.id !== productId);
-//     setCartItems(updated);
-//     setCartItems([...cartItems, product]);
-//     setCount(count - 1);
-
-//   };
-
-//   const isInCart = (id) => {
-//     return cartItems.some((item) => item.id === id);
-//   };
-
-//   return (
-//     <CartContext.Provider
-//       value={{ cartItems, count,setCount, addToCart, removeFromCart, isInCart }}
-//     >
-//       <BrowserRouter>
-//         <Navbar count={count} />
-//         <Secondnav />
-//         <Routes>
-//           <Route path="/" element={<Home />} />
-//           <Route path="/Mobiles" element={<Mobiles />} />
-//           <Route path="/Laptops" element={<Laptop />} />
-//           <Route path="/TVs" element={<TVs />} />
-//           <Route path="/ACs" element={<AC />} />
-//           <Route path="/Electronics" element={<Ele />} />
-//           <Route path="/Clothing" element={<Clothing />} />
-//           <Route path="/cart" element={<Basket />} />
-//         </Routes>
-//       </BrowserRouter>
-//     </CartContext.Provider>
-//   );
-// };
-
-// export default App;
-
-// import React, { useEffect, useState } from "react";
-// import Navbar from "./Components/Navbar/Navbar";
-// import "bootstrap-icons/font/bootstrap-icons.css";
-// import Secondnav from "./Components/SecondNav/Secondnav";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Mobiles from "./Pages/Mobiles/Mobiles";
-// import Laptop from "./Pages/Laptop/Laptop";
-// import Home from "./Pages/Home/Home";
-// import TVs from "./Pages/TVs/TVs";
-// import Basket from "./Pages/Basket/Basket";
-// import AC from "./Pages/AC/AC";
-// import Ele from "./Pages/Electronics/Ele";
-// import Clothing from "./Pages/Clothing/Clothing";
-// import SaveForLater from "./Pages/Basket/SaveForLater";
-
-// const App = () => {
-//   const [cartItems, setCartItems] = useState([]);
-//   const [savelater, setSavelater] = useState([]);
-
-//   // Initial loading from localStorage
-//   useEffect(() => {
-//     const cart = JSON.parse(localStorage.getItem("products")) || [];
-//     setCartItems(cart);
-
-//     const saved = JSON.parse(localStorage.getItem("savedForLater")) || [];
-//     setSavelater(saved);
-//   }, []);
-//   return (
-//     <BrowserRouter>
-//       <Navbar />
-//       <Secondnav />
-
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/Mobiles" element={<Mobiles />} />
-//         <Route path="/Laptops" element={<Laptop />} />
-//         <Route path="/TVs" element={<TVs />} />
-//         <Route path="/ACs" element={<AC />} />
-//         <Route path="/Electronics" element={<Ele />} />
-//         <Route path="/Clothing" element={<Clothing />} />
-//         <Route
-//           path="/cart"
-//           element={
-//             <Basket
-//               cartItems={cartItems}
-//               setCartItems={setCartItems}
-//               savelater={savelater}
-//               setSavelater={setSavelater}
-//             />
-//           }
-//         />
-//         <Route
-//           path="/saved"
-//           element={
-//             <SaveForLater
-//               savelater={savelater}
-//               setSavelater={setSavelater}
-//               setCartItems={setCartItems}
-//             />
-//           }
-//         />
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// };
-
-// export default App;
-
-import React, { useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Secondnav from "./Components/SecondNav/Secondnav";
@@ -230,7 +15,8 @@ import SaveForLater from "./Pages/Basket/SaveForLater";
 import Signup from "./Pages/Signup";
 import Login from "./Pages/Login";
 
-import Practice from "./Practice";
+
+
 import Access from "./Pages/Access";
 import MobileDetails from "./Pages/Mobiles/MobileDetails";
 import LaptopDetails from "./Pages/Laptop/LaptopDetails";
@@ -238,20 +24,48 @@ import ElectronicsDetails from "./Pages/Electronics/ElectronicsDetails";
 import ClothingDetails from "./Pages/Clothing/ClothingDetails";
 import AcDetails from './Pages/AC/AcDetails'
 import TvDetails from "./Pages/TVs/TvDetails";
+import Alldetails from "./Alldetails";
+import { CartContext } from "./Context/Context";
+import Admin from "./Pages/Admin/Admin";
+import Orders from "./Pages/Orders/Orders";
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
   const [savelater, setSavelater] = useState([]);
+  const [quantities, setQuantities] = useState({});
+  const [homeData, setHomeData] = useState(null);
 
-  useEffect(() => {
-    const cart = JSON.parse(localStorage.getItem("products")) || [];
-    setCartItems(cart);
-  }, []);
+      const {  updateCart } = useContext(CartContext);
+
+const [count, setCount] = useState(() => {
+  const cart = JSON.parse(localStorage.getItem("products")) || [];
+  return cart.reduce((total, item) => total + item.quantity, 0);
+});
+    // const updateCart = (product, newQty) => {
+    //   let cart = JSON.parse(localStorage.getItem("products")) || [];
+
+    //   if (newQty <= 0) {
+    //     cart = cart.filter((item) => item.id !== product.id);
+    //   } else {
+    //     const exists = cart.find((item) => item.id === product.id);
+    //     if (exists) {
+    //       cart = cart.map((item) =>
+    //         item.id === product.id ? { ...item, quantity: newQty } : item
+    //       );
+    //     } else {
+    //       cart.push({ ...product, quantity: newQty });
+    //     }
+    //   }
+
+    //   localStorage.setItem("products", JSON.stringify(cart));
+    //   setQuantities((prev) => ({ ...prev, [product.id]: newQty }));
+    //   setCount(cart.reduce((total, item) => total + item.quantity, 0));
+    // };
+  
+
 
   return (
     <BrowserRouter>
-      {/* <Routes></Routes> */}
-
       <Routes>
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
@@ -259,19 +73,29 @@ const App = () => {
           path="/"
           element={
             <Access>
-              <Navbar />
+              <Navbar count={count} />
               <Secondnav />
-              <Home />
+              <Home homeData={homeData} />
+              <Alldetails
+                count={count}
+                setCount={setCount}
+                updateCart={updateCart}
+                quantities={quantities}
+                setQuantities={setQuantities}
+                onDataFetched={setHomeData}
+              />
             </Access>
           }
         />
-
+         <Route
+          path="/orders"
+          element={<><Navbar count={count} /><Secondnav />   <Orders/> </> } />
         <Route
           path="/Mobiles"
           element={
             <>
-              <Navbar />
-              <Secondnav /> <Mobiles />
+              <Navbar count={count} />
+              <Secondnav /> <Mobiles onDataFetched={setHomeData} />
             </>
           }
         />
@@ -279,7 +103,7 @@ const App = () => {
           path="/Mobiles/:id"
           element={
             <>
-              <Navbar />
+              <Navbar count={count} />
               <Secondnav /> <MobileDetails />
             </>
           }
@@ -288,9 +112,8 @@ const App = () => {
           path="/Laptops"
           element={
             <>
-              
-              <Navbar />
-              <Secondnav /> <Laptop />
+              <Navbar count={count} />
+              <Secondnav /> <Laptop count={count} setCount={setCount} />
             </>
           }
         />
@@ -298,8 +121,7 @@ const App = () => {
           path="/Laptops/:id"
           element={
             <>
-             
-              <Navbar />
+              <Navbar count={count} />
               <Secondnav />
               <LaptopDetails />
             </>
@@ -309,9 +131,8 @@ const App = () => {
           path="/TVs"
           element={
             <>
-             
-              <Navbar />
-              <Secondnav /> <TVs />
+              <Navbar count={count} />
+              <Secondnav /> <TVs count={count} setCount={setCount} />
             </>
           }
         />
@@ -319,8 +140,7 @@ const App = () => {
           path="/TVs/:id"
           element={
             <>
-              
-              <Navbar />
+              <Navbar count={count} />
               <Secondnav /> <TvDetails />
             </>
           }
@@ -329,9 +149,9 @@ const App = () => {
           path="/ACs"
           element={
             <>
-              <Navbar />
+              <Navbar count={count} />
               <Secondnav />
-              <AC />
+              <AC count={count} setCount={setCount} />
             </>
           }
         />
@@ -339,7 +159,7 @@ const App = () => {
           path="/ACs/:id"
           element={
             <>
-              <Navbar />
+              <Navbar count={count} />
               <Secondnav />
               <AcDetails />
             </>
@@ -349,9 +169,9 @@ const App = () => {
           path="/Electronics"
           element={
             <>
-              <Navbar />
+              <Navbar count={count} />
               <Secondnav />
-              <Ele />
+              <Ele count={count} setCount={setCount} />
             </>
           }
         />
@@ -359,7 +179,7 @@ const App = () => {
           path="/Electronics/:id"
           element={
             <>
-              <Navbar />
+              <Navbar count={count} />
               <Secondnav />
               <ElectronicsDetails />
             </>
@@ -369,9 +189,9 @@ const App = () => {
           path="/Clothing"
           element={
             <>
-              <Navbar />
+              <Navbar count={count} />
               <Secondnav />
-              <Clothing />
+              <Clothing count={count} setCount={setCount} />
             </>
           }
         />
@@ -379,7 +199,7 @@ const App = () => {
           path="/Clothing/:id"
           element={
             <>
-              <Navbar />
+              <Navbar count={count} />
               <Secondnav />
               <ClothingDetails />
             </>
@@ -389,9 +209,14 @@ const App = () => {
           path="/cart"
           element={
             <>
-              <Navbar />
+              <Navbar count={count} />
               <Secondnav />
-              <Basket cartItems={cartItems} setCartItems={setCartItems} />
+              <Basket
+                cartItems={cartItems}
+                setCartItems={setCartItems}
+                count={count}
+                setCount={setCount}
+              />
             </>
           }
         />
@@ -399,18 +224,19 @@ const App = () => {
           path="/saved"
           element={
             <>
-              
-              <Navbar />
+              <Navbar count={count} />
               <Secondnav />
               <SaveForLater
                 savelater={savelater}
                 setSavelater={setSavelater}
                 setCartItems={setCartItems}
+                count={count}
+                setCount={setCount}
               />
             </>
           }
         />
-        <Route path="/practice" element={<Practice />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   );

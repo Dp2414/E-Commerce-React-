@@ -44,7 +44,7 @@ import axios from "axios";
 import { CartContext } from "../../Context/Context";
 import ProductCard from "../../ProductCard";
 const TVs = () => {
-  const { count, setCount } = useContext(CartContext);
+
   let [tv, setTv] = useState([]);
 
   async function jsontv() {
@@ -60,22 +60,8 @@ const TVs = () => {
   useEffect(() => {
     jsontv();
   }, []);
-  const increase = () => {
-    const newQty = qty + 1;
-    setQty(newQty);
-    updateCart(newQty);
-  };
 
-  const decrease = () => {
-    const newQty = qty - 1;
-    setQty(newQty);
-    updateCart(newQty);
-  };
 
-  const delitem = () => {
-    setQty(0);
-    updateCart(0);
-  };
 
   return (
     <div
@@ -85,11 +71,7 @@ const TVs = () => {
         <ProductCard
           key={TV.id}
           product={TV}
-          count={count}
-          setCount={setCount}
-          increase={increase}
-          decrease={decrease}
-          delitem={delitem}
+       
           category="TVs"
         />
       ))}
